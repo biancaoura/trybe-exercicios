@@ -2,12 +2,12 @@ Este repositório contém todas as atividades realizadas durante o aprendizado n
 
 # Fundamentos do Desenvolvimento Web
 
-### Bloco 1: Introdução - Unix & Shell
+### [Bloco 1: Introdução - Unix & Shell](https://github.com/byoura/trybe-exercicios/tree/main/fundamentos/bloco-01-unix-e-shell)
 
 - [x] 1-3: _Unix & Shell - Parte 1_
 - [x] 1-4: _Unix & Shell - Parte 2_
 
-### Bloco 2: Git & GitHub
+### [Bloco 2: Git & GitHub](https://github.com/byoura/trybe-exercicios/tree/main/fundamentos/bloco-02-git-github-e-internet/dia-01-git-e-github-o-que-e-e-para-que-serve)
 
 - [x] 2-1: _O que é e para que serve?_
 - [ ] 2-2: _Entendendo os comandos_
