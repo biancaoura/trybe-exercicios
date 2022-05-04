@@ -11,7 +11,7 @@ Este repositório contém todas as atividades realizadas durante o aprendizado n
 
 - [x] 2-1: _O que é e para que serve?_
 - [x] 2-2: _Entendendo os comandos_
-- [ ] 2-3: _Internet - Entendendo como ela funciona_
+- [x] 2-3: _Internet - Entendendo como ela funciona_
 
 ### Bloco 3: Introdução - HTML & CSS
 
