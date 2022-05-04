@@ -10,7 +10,7 @@ Este repositório contém todas as atividades realizadas durante o aprendizado n
 ### [Bloco 2: Git & GitHub](https://github.com/byoura/trybe-exercicios/tree/main/fundamentos/bloco-02-git-github-e-internet/dia-01-git-e-github-o-que-e-e-para-que-serve)
 
 - [x] 2-1: _O que é e para que serve?_
-- [ ] 2-2: _Entendendo os comandos_
+- [x] 2-2: _Entendendo os comandos_
 - [ ] 2-3: _Internet - Entendendo como ela funciona_
 
 ### Bloco 3: Introdução - HTML & CSS
