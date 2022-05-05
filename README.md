@@ -16,7 +16,7 @@ Este repositório contém todas as atividades realizadas durante o aprendizado n
 ### [Bloco 3: Introdução à HTML e CSS](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-03-introducao-a-html-e-css)
 
 - [x] 3-1: _Introdução - HTML & CSS_
-- [x] 3-1: _HTML % CSS - Estruturas de página_
+- [x] 3-1: _HTML & CSS - Estruturas de página_
 - [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [ ] 3-4: _HTML Semântico_
