@@ -1,4 +1,4 @@
-Este repositório contém todas as atividades realizadas durante o aprendizado na [Trybe](https://www.betrybe.com/).
+<span style="text-decoration: underline">Este repositório contém todas as atividades realizadas durante o aprendizado na [Trybe](https://www.betrybe.com/).</span>
 
 # Fundamentos do Desenvolvimento Web
 
