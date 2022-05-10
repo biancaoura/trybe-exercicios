@@ -1,0 +1,56 @@
+div:hover {
+    border: 1px solid blue;
+}
+
+div:nth-of-type(1) {
+    background: red;
+}
+
+div:nth-of-type(2) {
+    background: orange;
+}
+
+div:nth-of-type(3) {
+    background: purple;
+}
+
+div:nth-of-type(4) {
+    background: brown;
+}
+
+div:nth-of-type(5) {
+    background: cyan;
+}
+
+div:nth-of-type(1) h3 {
+    font-size: 30px;
+}
+
+div:nth-of-type(2) h3 {
+    background: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    color: oldlace;
+
+}
+
+div:nth-of-type(3) h3{
+    background: purple;
+    height: 100px;
+    text-decoration: underline;
+
+}
+
+div:nth-of-type(4) h3{
+    background: brown;
+    text-decoration:line-through;
+    color:azure;
+}
+
+div:nth-of-type(5) h3{
+    background: cyan;
+    font-variant: small-caps;
+}
+
+div:nth-of-type(odd) {
+    font-style: italic;
+}
