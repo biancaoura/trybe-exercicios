@@ -1,0 +1,16 @@
+h1, p {
+    text-align: center;
+}
+
+ol li:hover {
+    background-color: rgb(106, 221, 209);
+    transform: scaleY(1.5)
+}
+
+ol li:active {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}   
+
+li {
+    list-style: none;
+}

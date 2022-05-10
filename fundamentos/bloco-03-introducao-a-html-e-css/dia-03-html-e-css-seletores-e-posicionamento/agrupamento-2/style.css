@@ -1,0 +1,50 @@
+div:hover {
+    border: 1px solid blue;
+}
+
+.div1 {
+    background: red;
+}
+
+.div2 {
+    background: orange;
+}
+
+.div3 {
+    background: purple;
+    height: 100px;
+}
+
+.div4 {
+    background: brown;
+}
+
+.div5 {
+    background: cyan;
+}
+
+.div1 h3 {
+    font-size: 30px;
+}
+
+.div2 h3 {
+    text-decoration: underline;
+}
+
+.div3 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: oldlace;
+}
+
+.div4 h3 {
+    text-decoration:line-through;
+    color:azure;
+}
+
+.div5 h3 {
+    font-variant: small-caps;
+}
+
+.div1 h3, .div3 h3, .div5 h3 {
+    font-style: italic;
+}
