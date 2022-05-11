@@ -28,7 +28,17 @@ a:hover {
 }
 
 header {
-    background: #675A15;
+    background: #76973D;
     padding: 10px;
     color: #F9F6EC;
+}
+
+nav {
+    background: #A37331;
+    padding: 10px;
+}
+
+nav a {
+    color: #58110b;
+    margin-right: 15px;
 }
