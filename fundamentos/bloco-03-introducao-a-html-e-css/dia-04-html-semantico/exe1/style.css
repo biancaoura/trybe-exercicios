@@ -8,7 +8,10 @@ body {
     font-family: Helvetica, sans-serif;
 }
 img {
-    width: 300px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid #E44304;
+    margin: 10px 0;
 }
 
 li {
@@ -17,6 +20,7 @@ li {
 
 ul a, li {
     color: #047383;
+    line-height: 20px;
 }
 
 a {
@@ -34,11 +38,42 @@ header {
 }
 
 nav {
-    background: #A37331;
+    background: #C79043;
     padding: 10px;
 }
 
 nav a {
     color: #58110b;
     margin-right: 15px;
+}
+
+article {
+    margin-left: 10px;
+}
+
+h2, h4 {
+    color: #e44304;
+    margin: 20px 0;
+}
+
+h3 {
+    color: #668235;
+    margin: 7px 0;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+aside {
+    margin: 20px 10px;
+}
+
+aside a {
+    color: #07beda;
+    font-weight: 600;
+}
+
+footer {
+    margin: 10px;
 }
