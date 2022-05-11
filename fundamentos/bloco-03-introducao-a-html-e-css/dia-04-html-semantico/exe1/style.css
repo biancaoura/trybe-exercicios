@@ -13,11 +13,13 @@ img {
 
 li {
     list-style: none outside;
-    margin-left: -20px;
 }
 
-a:link, a:hover, a:active, a:visited, li {
+ul a, li {
     color: #047383;
+}
+
+a {
     text-decoration: none;
 }
 
