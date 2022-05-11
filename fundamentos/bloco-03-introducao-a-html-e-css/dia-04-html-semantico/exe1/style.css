@@ -1,0 +1,21 @@
+body {
+    background: #F9F6EC;
+    font-family: Helvetica, sans-serif;
+}
+img {
+    width: 300px;
+}
+
+li {
+    list-style: none outside;
+    margin-left: -20px;
+}
+
+a:link, a:hover, a:active, a:visited, li {
+    color: #047383;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: 600;
+}
