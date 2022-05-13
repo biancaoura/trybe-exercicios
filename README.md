@@ -20,11 +20,11 @@
 - [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [x] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [x] 3-4: _HTML Semântico_
-- [ ] 3-5: _Projeto - Lessons Learned_
+- [x] 3-5: _Projeto - Lessons Learned_
 
-### Bloco 4: Introdução à JavaScript e Lógica de Programação
+### [Bloco 4: Introdução à JavaScript e Lógica de Programação] (<https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-04-introducao-a-javascript-e-logica-de-programacao>)
 
-- [ ] 4-1: _Introdução - JavaScript_
+- [x] 4-1: _Introdução - JavaScript_
 - [ ] 4-1: _JavaScript - Primeiros passos_
 - [ ] 4-2: _JavaScript - Array e loop For_
 - [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
