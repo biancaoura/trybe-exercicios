@@ -25,8 +25,8 @@
 ### [Bloco 4: Introdução à JavaScript e Lógica de Programação] (<https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-04-introducao-a-javascript-e-logica-de-programacao>)
 
 - [x] 4-1: _Introdução - JavaScript_
-- [ ] 4-1: _JavaScript - Primeiros passos_
-- [ ] 4-2: _JavaScript - Array e loop For_
+- [x] 4-1: _JavaScript - Primeiros passos_
+- [x] 4-2: _JavaScript - Array e loop For_
 - [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [ ] 4-4: _JavaScript - Objetos e funções_
 - [ ] 4-5: _Projeto - Playground Functions_
