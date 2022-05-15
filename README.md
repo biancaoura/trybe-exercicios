@@ -22,7 +22,7 @@
 - [x] 3-4: _HTML Semântico_
 - [x] 3-5: _Projeto - Lessons Learned_
 
-### [Bloco 4: Introdução à JavaScript e Lógica de Programação] (<https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-04-introducao-a-javascript-e-logica-de-programacao>)
+### [Bloco 4: Introdução à JavaScript e Lógica de Programação] (https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-04-introducao-a-javascript-e-logica-de-programacao)
 
 - [x] 4-1: _Introdução - JavaScript_
 - [x] 4-1: _JavaScript - Primeiros passos_
