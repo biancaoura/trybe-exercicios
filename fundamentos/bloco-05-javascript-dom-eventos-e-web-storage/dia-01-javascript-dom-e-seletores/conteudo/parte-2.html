@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph" class="paragrafo">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph" class="paragrafo">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.querySelector('#paragraph');
+      paragraph.style.color = "red";
+      document.querySelector('#page-title').innerHTML = 'Ratatouille';
+      document.querySelector('#second-paragraph').style.color = 'lime';
+      document.querySelector('#subtitle').style.background = 'turquoise';
+      const paragrafos = document.querySelectorAll('.paragrafo');
+      paragrafos[0].style = "color: grey";
+      document.querySelector('h4')[0].style.color = 'blue';
+    </script>
+  </body>
+</html>
