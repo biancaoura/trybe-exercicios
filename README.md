@@ -31,11 +31,11 @@
 - [x] 4-4: _JavaScript - Objetos e funções_
 - [x] 4-5: _[Projeto - Playground Functions](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-04-introducao-a-javascript-e-logica-de-programacao/dia-05-projeto-playground-functions)_
 
-### Bloco 5: JavaScript: DOM, Eventos e Web Storage
+### [Bloco 5: JavaScript: DOM, Eventos e Web Storage](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-dom-eventos-e-web-storage)
 
 - [x] 5-1: _JavaScript - DOM e seletores_
 - [x] 5-2: _JavaScript - Trabalhando com elementos_
-- [ ] 5-3: _JavaScript - Eventos_
+- [x] 5-3: _JavaScript - Eventos_
 - [ ] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _Fundamentos - JavaScript - Projetos_
 - [ ] 5-5: _Projeto - Arte com Pixels_
