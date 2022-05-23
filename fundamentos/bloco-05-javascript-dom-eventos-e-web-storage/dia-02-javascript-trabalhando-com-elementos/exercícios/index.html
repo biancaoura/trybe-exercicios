@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body id="corpo">
+    <script>
+      const corpo = document.getElementById('corpo');
+      
+      // EXERCÍCIO 1 - ADD TAG h1
+      const exercise = document.createElement('h1');
+      exercise.innerText = 'Exercício 5.2 - Javascript DOM';
+      corpo.appendChild(exercise);
+
+      // EXERCÍCIO 2 - ADD TAG main
+      const mainContent = document.createElement('main');
+      mainContent.className = 'main-content';
+      corpo.appendChild(mainContent);
+
+      // EXERCÍCIO 3 - ADD TAG section
+      const centerContent = document.createElement('section');
+      centerContent.className = 'center-content';
+      mainContent.appendChild(centerContent);
+
+      // EXERCÍCIO 4 - ADD TAG p
+      const centerChild = document.createElement('p');
+      centerChild.innerText = 'Algum texto';
+      centerContent.appendChild(centerChild);
+
+      // EXERCÍCIO 5 - ADD TAG section
+      const leftContent = document.createElement('section');
+      leftContent.className = 'left-content';
+      mainContent.appendChild(leftContent);
+
+      // EXERCÍCIO 6 - ADD TAG section
+      const rightContent = document.createElement('section');
+      rightContent.className = 'right-content';
+      mainContent.appendChild(rightContent);
+
+      // EXERCÍCIO 7 - ADD img
+      const pic = document.createElement('img');
+      pic.className = 'small-image';
+      pic.src = 'https://picsum.photos/200';
+      leftContent.appendChild(pic);
+
+      // EXERCÍCIO 8 - ADD ul
+      const unorderedList = document.createElement('ul');
+      rightContent.appendChild(unorderedList);
+      
+      const array = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+      for (let i = 0; i < array.length; i += 1) {
+        let numbers = array[i];
+        const list = document.createElement('li');
+        list.innerText = numbers;
+        unorderedList.appendChild(list);
+      }
+
+      // EXERCÍCIO 9 - ADD 3 TAGS h3
+      for (let i = 1; i <= 3; i += 1) {
+        const header3 = document.createElement('h3');
+        mainContent.appendChild(header3);
+      }
+
+
+      // PARTE 2
+
+      // EXERCÍCIO 1 - ADD CLASSE NA TAG h1
+      exercise.className = 'title';
+
+      // EXERCÍCIO 2 - ADD CLASSE NAS TAG h3
+      const headers3 = document.getElementsByTagName('h3');
+      for (let i = 0; i < 3; i += 1) {
+        headers3[i].className = 'description';
+      }
+
+      // EXERCÍCIO 3 - REMOVER section
+      mainContent.removeChild(leftContent);
+
+      // EXERCÍCIO 4 - CENTRALIZAR section
+      rightContent.style.marginRight = 'auto';
+
+      // EXERCÍCIO 5 - TROCAR COR DE FUNDO
+      centerContent.style.backgroundColor = 'green';
+
+      // EXERCÍCIO 6 - REMOVER ITENS DA LISTA
+      unorderedList.lastChild.remove();
+      unorderedList.lastChild.remove();
+    </script>
+  </body>
+</html>
