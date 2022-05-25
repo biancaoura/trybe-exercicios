@@ -36,7 +36,7 @@
 - [x] 5-1: _JavaScript - DOM e seletores_
 - [x] 5-2: _JavaScript - Trabalhando com elementos_
 - [x] 5-3: _JavaScript - Eventos_
-- [ ] 5-4: _JavaScript - Web Storage_
+- [x] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _Fundamentos - JavaScript - Projetos_
 - [ ] 5-5: _Projeto - Arte com Pixels_
 - [ ] 5-6: _(Bônus) Projeto - Lista de tarefas_
