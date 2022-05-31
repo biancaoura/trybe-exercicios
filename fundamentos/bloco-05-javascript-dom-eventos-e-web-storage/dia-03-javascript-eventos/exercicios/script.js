@@ -1,5 +1,3 @@
-/* eslint-disable prefer-arrow-callback */
-/* eslint-disable max-len */
 function createDaysOfTheWeek() {
   const weekDays = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
   const weekDaysList = document.querySelector('.week-days');
@@ -102,3 +100,41 @@ function changeText(array) {
 changeText(friday);
 
 // EXERCÍCIO 6 - AUMENTAR FONTE AO PASSAR O MOUSE
+function zoomIn() {
+  const day = document.querySelectorAll('li.day');
+  for (let i = 0; i < day.length; i += 1) {
+    day[i].addEventListener('mouseover', (event) => {
+      event.target.style.fontSize = '26px';
+    });
+  }
+}
+
+function zoomOut() {
+  const day = document.querySelectorAll('li.day');
+  for (let i = 0; i < day.length; i += 1) {
+    day[i].addEventListener('mouseout', (event) => {
+      event.target.style.fontSize = '20px';
+    });
+  }
+}
+zoomIn();
+zoomOut();
+
+// EXERCÍCIO 7 - ADICIONAR TAREFA PERSONALIZADA
+function createTask(string) {
+  const task = document.createElement('span');
+  const parent = document.querySelector('.my-tasks');
+  task.innerText = string;
+  parent.appendChild(task);
+}
+createTask('estudar');
+
+// EXERCÍCIO 8 - ADICIONAR LEGENDA COM COR À TAREFA PERSONALIZADA
+function createLegend(color) {
+  const task = document.createElement('div');
+  const parent = document.querySelector('.my-tasks');
+  task.classList.add = 'task';
+  task.style.backgroundColor = color;
+  parent.appendChild(task);
+}
+createLegend('blue');
