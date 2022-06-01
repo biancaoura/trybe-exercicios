@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(255, 251, 246);
+}
+
+h1, header>p {
+  text-align: center
+}
+
+#options-container input, #agree-container input{
+  margin: auto 3px;
+}
+
+#input-date {
+  width: max-content;
+}
