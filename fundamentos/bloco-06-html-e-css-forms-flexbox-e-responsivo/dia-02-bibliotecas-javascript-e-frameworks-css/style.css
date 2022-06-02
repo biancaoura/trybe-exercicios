@@ -13,3 +13,21 @@ h1, header>p {
 #input-date {
   width: max-content;
 }
+
+.modal {
+  background-color: rgba(227, 250, 223, 0.4);
+}
+
+.modal-content {
+  background-color: rgb(123, 215, 177);
+  border-radius: 10px;
+  margin: 10% auto;
+  padding: 20px;
+  width: 40%;
+  text-align: center;
+  font-weight: 600;
+}
+
+.close {
+  float: right;
+}
