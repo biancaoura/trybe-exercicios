@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+  
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <header class="container content pt-6">
+    <h1>TrybeTrip</h1>
+    <p>Preencha o formulário abaixo para concorrer a uma viagem totalmente paga!</p>
+  </header>
+  <main class="level-item">
+    <div id="line"></div>
+    <form class="box my-6" action="" id="input-container">
+
+      <div id="input-field-container">
+
+        <div class="mt-3" id="name-container">
+          <label class="label" for="input-name">Nome:</label>
+          <input
+          class="input is-small"
+          type="text"
+          name="name"
+          id="input-name"
+          autofocus>
+        </div>
+
+        <div class="control mt-3" id="email-container">
+          <label class="label" for="input-email">Email:</label>
+            <input
+            class="input is-small"
+            type="email"
+            name="email"
+            id="input-email">
+        </div>
+
+        <div class="control radio mt-3" id="options-container">
+           <p class="label mt-2" id="destination">Destino Preferido</p>
+            <label for="option1"><input type="radio" name="options" id="option1">Cidade</label>
+            <label for="option2"><input type="radio" name="options" id="option2">Campo</label>
+            <label for="option3"><input type="radio" name="options" id="option3">Praia</label>
+            <label for="option4"><input type="radio" name="options" id="option4">Montanhas</label>
+          </fieldset>
+        </div>
+
+        <div id="answer-container">
+          <label class="label mt-4" for="type-answer">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
+          <textarea class="textarea mt-2" name="text-area" id="type-answer" rows="5" maxlength="500" placeholder="máx. 500 caracteres"></textarea>
+        </div>
+   
+        <div class="mt-4" id="date-container">
+          <div>
+            <label class="label  mt-2" for="input-date">Qual a melhor data para realizar sua viagem?</label>
+          </div>
+          <input
+          class="input is-small mt-2"
+          type="text"
+          name="date"
+          placeholder="dd/mm/aaaa"
+          id="input-date">
+        </div>
+
+        <div class="mt-4" id="agree-container">
+          <div>
+            <label>
+              <input
+              class="checkbox mt-2" type="checkbox" name="agree" id="agree1" required>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+          </div>
+          <label>
+            <input class="checkbox mt-2" type="checkbox" name="agree" id="agree2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+        </div>
+      </div>
+      <div class="checkbox mt-5" id="input-button-container">
+        <button
+        class="button is-primary mr-4 js-modal-trigger"
+        type="submit"
+        id="submit-button">Enviar</button>
+        <div class="modal" id="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Dados enviados com sucesso, agradecemos por participar do concurso.</p>
+          </div>
+        </div>
+        <button
+        class="button is-danger"
+        type="reset">Apagar</button>
+      </div>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

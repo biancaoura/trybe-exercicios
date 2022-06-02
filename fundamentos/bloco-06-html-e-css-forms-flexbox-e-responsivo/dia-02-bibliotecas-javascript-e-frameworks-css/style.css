@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(255, 251, 246);
+}
+
+h1, header>p {
+  text-align: center
+}
+
+#options-container input, #agree-container input{
+  margin: auto 3px;
+}
+
+#input-date {
+  width: max-content;
+}
+
+.modal {
+  background-color: rgba(227, 250, 223, 0.4);
+}
+
+.modal-content {
+  background-color: rgb(123, 215, 177);
+  border-radius: 10px;
+  margin: 10% auto;
+  padding: 20px;
+  width: 40%;
+  text-align: center;
+  font-weight: 600;
+}
+
+.close {
+  float: right;
+}
