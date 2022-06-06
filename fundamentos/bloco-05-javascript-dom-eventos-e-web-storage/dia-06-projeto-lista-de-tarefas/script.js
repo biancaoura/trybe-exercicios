@@ -1,6 +1,10 @@
 const listContainer = document.getElementById('lista-tarefas');
 const addButton = document.getElementById('criar-tarefa');
 const inputBox = document.getElementById('texto-tarefa');
+const saveButton = document.getElementById('salvar-tarefas');
+const upButton = document.getElementById('mover-cima');
+const downButton = document.getElementById('mover-baixo');
+const rmButton = document.getElementById('remover-selecionado');
 
 // CRIA ELEMENTOS li
 function createTaskItem(value) {
@@ -19,8 +23,8 @@ addButton.addEventListener('click', () => {
   createTaskItem(inputText);
   inputBox.value = '';
   for (let i = 0; i < listItem.length; i += 1) {
-    listItem[i].addEventListener('click', (event) => {
-      event.target.classList.add('selected');
+    listItem[i].addEventListener('click', (e) => {
+      e.target.classList.add('selected');
     });
   }
 });
@@ -74,64 +78,56 @@ removeButton.addEventListener('click', () => {
 });
 
 // ADD BOTÃO QUE SALVA CONTEÚDO DA LISTA
-function createSaveButton() {
-  const saveButton = document.createElement('button');
-  saveButton.id = 'salvar-tarefas';
-  saveButton.innerText = 'Salvar lista';
-  removeButton.insertAdjacentElement('afterend', saveButton);
-}
-createSaveButton();
-
-function addTaskInDOM() {
-  const taskList = JSON.parse(localStorage.getItem('tasks')); // transforma string em array
-  const listLength = taskList.length - 1;
-  const taskText = taskList[listLength];
-  const task = document.createElement('li');
-  task.innerText = taskText;
-  listContainer.appendChild(task);
-}
-
-// ACHO QUE TENHO QUE MUDAR ESSA FUNÇÃO: oldList É O ARRAY DE li
-function addTaskToStorage() {
-  const oldList = JSON.parse(localStorage.getItem('tasks')); //transforma string em array
-  // const listText = inputBox.value;
-  // oldList.push(listText);
-  // localStorage.setItem('tasks', JSON.stringify(oldList));
-  // addTaskInDOM();
-// }
-for (let i = 0; i < listItem.length; i += 1) {
-  const listText = listItem[i].innerHTML;
-  oldList.push(listText[i]);
-}
-  localStorage.setItem('tasks', JSON.stringify(oldList));
-  console.log(oldList);
-  addTaskInDOM();
-  }
-
-// function initialRendering() {
-//   if (localStorage.getItem('tasks') === null) {
-//     // localStorage.setItem('tasks', JSON.stringify([]));
-//     return false;
-//   } else {
-//     const taskList = JSON.parse(localStorage.getItem('tasks'));
-//     for (let i = 0; i < taskList; i += 1) {
-//       const listElement = document.createElement('li');
-//       listElement.innerText = taskList[i];
-//       listContainer.appendChild(listElement);
-//     }
-//   }
-// }
-
 function initialRendering() {
-  const taskList = JSON.parse(localStorage.getItem('tasks'));
-  for (let i = 0; i < taskList.length; i += 1) {
-    const listElement = document.createElement('li');
-    listElement.innerText = taskList[i];
-    listContainer.appendChild(listElement);
+  if (localStorage.getItem('tasks') === null) {
+    localStorage.setItem('tasks', []);
+  }
+  listContainer.innerHTML = localStorage.getItem('tasks');
+  for (let i = 0; i < listItem.length; i += 1) {
+    listItem[i].addEventListener('click', (e) => {
+      e.target.classList.add('selected');
+    });
+    listItem[i].addEventListener('dblclick', (e) => {
+      e.target.classList.toggle('completed');
+    });
   }
 }
-
-const saveButton = document.getElementById('salvar-tarefas');
-saveButton.addEventListener('click', addTaskToStorage);
-
 window.onload = () => { initialRendering(); };
+saveButton.addEventListener('click', () => {
+  localStorage.setItem('tasks', listContainer.innerHTML);
+});
+
+// MOVER ITEM P/ CIMA E P/ BAIXO
+upButton.addEventListener('click', () => {
+  for (let i = 0; i < listItem.length; i += 1) {
+    if (listItem[i].classList.contains('selected')
+    && listItem[i] !== listItem[0]) {
+      const item = listItem[i];
+      const previous = listItem[i - 1];
+      const newItem = item;
+      listContainer.removeChild(item);
+      listContainer.insertBefore(newItem, previous);
+    }
+  }
+});
+downButton.addEventListener('click', () => {
+  for (let i = listItem.length - 1; i >= 0; i -= 1) {
+    if (listItem[i].classList.contains('selected')
+    && listItem[i] !== listItem[listItem.length - 1]) {
+      const next = listItem[i + 2];
+      const item = listItem[i];
+      const newItem = item;
+      listContainer.removeChild(item);
+      listContainer.insertBefore(newItem, next);
+    }
+  }
+});
+
+// REMOVER ITEM SELECIONADO
+rmButton.addEventListener('click', () => {
+  for (let i = 0; i < listItem.length; i += 1) {
+    if (listItem[i].classList.contains('selected')) {
+      listItem[i].remove();
+    }
+  }
+});

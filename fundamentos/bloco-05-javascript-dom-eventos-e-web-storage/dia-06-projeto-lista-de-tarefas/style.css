@@ -1,3 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 50%;
+  margin: auto;
+  min-width: 500px;
+}
+
+header {
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 20px;
+  padding: 10px;
+  background: rgb(219 , 219 , 219);
+}
+
+p {
+  align-self: flex-start;
+}
+
+ol {
+  align-self: flex-start;
+  margin-left: 20px;
+}
+
+input , button {
+  padding: 8px 15px;
+  margin: 6px;
+  border-radius: 5px;
+}
+
+input {
+  width: 100%;
+  border: 1px solid darkgrey;
+}
+
+#criar-tarefa {
+  background: rgb(227 , 242 , 253);
+  border: 1px solid rgb(33 , 150 , 243);
+  color: rgb(13 , 71 , 161);
+}
+
+#remover-selecionado , #apaga-tudo {
+  background: rgb(255 , 240 , 243);
+  border: 1px solid rgb(195 , 47 , 39);
+  color: rgb(195 , 47 , 39);
+}
+
+#remover-finalizados {
+  background: rgb(255 , 250 , 229);
+  border: 1px solid rgb(201 , 162 , 39);
+  color: rgb(146 , 108 , 21);
+}
+
+#salvar-tarefas {
+  background: rgb(232 , 247 , 234);
+  border: 1px solid rgb(64 , 145 , 108);
+  color: rgb(52 , 78 , 65);
+}
+
+#mover-cima , #mover-baixo {
+  background: rgb(248 , 249 , 250);
+  border: 1px solid rgb(108 , 117 , 125);
+}
+
+/* OBRIGATÓRIOS */
 .selected {
   background-color: grey;
 }
