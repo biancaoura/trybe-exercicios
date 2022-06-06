@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header><h1>Meme Generator</h1></header>
+  <main>
+    <section class="input-container">
+      <label for="text-input">Frase do meme:</label>
+      <input
+      type="text"
+      name="text-input"
+      maxlength="60"
+      id="text-input">
+      <label for="meme-input">Selecione uma imagem:</label>
+      <input
+      type="file"
+      name="image-input"
+      id="meme-insert"
+      accept="image/*">
+    </section>
+    <section id="meme-image-container">
+      <img src="imgs/meme1.png" alt="imagem do meme" id="meme-image">
+      <p id="meme-text"></p>
+    </section>
+    <section>
+      <button
+      type="button" id="fire">Fire</button>
+      <button
+      type="button" id="water">Water</button>
+      <button
+      type="button" id="earth">Earth</button>
+    </section>
+    <section>
+      <img src="imgs/meme1.png" class="image" alt="tom (tom e jerry)" id="meme-1">
+      <img src="imgs/meme2.png" class="image" alt="cachorro shiba" id="meme-2">
+      <img src="imgs/meme3.png" class="image" alt="elmo" id="meme-3">
+      <img src="imgs/meme4.png" class="image" alt="bob esponja" id="meme-4">
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
