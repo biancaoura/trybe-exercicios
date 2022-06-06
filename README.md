@@ -40,6 +40,9 @@
 - [x] 5-5: _Fundamentos - JavaScript - Projetos_
 - [x] 5-5: _[Projeto - Arte com Pixels](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-dom-eventos-e-web-storage/dia-05-projeto-arte-com-pixels)_
 - [x] 5-6: _[(Bônus) Projeto - Lista de tarefas](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-dom-eventos-e-web-storage/dia-06-projeto-lista-de-tarefas)_
+- [x] 5-7: _[(Bônus) Projeto - Carta Misteriosa](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-dom-eventos-e-web-storage/dia-07-projeto-carta-misteriosa)_
+- [x] 5-7: _[(Bônus) Projeto - Meme Generator](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-dom-eventos-e-web-storage/dia-06-projeto-lista-de-tarefas)_
+- [x] 5-7: _[(Bônus) Projeto - Adivinhe a cor](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-dom-eventos-e-web-storage/dia-07-projeto-meme-generator)_
 
 ### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
 
@@ -48,7 +51,7 @@
 - [x] 6-3: _Introdução - CSS Flexbox_
 - [x] 6-3: _CSS Flexbox - Parte 1_
 - [x] 6-4: _CSS Flexbox - Parte 2_
-- [ ] 6-5: _CSS Responsivo - Mobile First_
+- [x] 6-5: _CSS Responsivo - Mobile First_
 - [ ] 6-6: _Projeto - Trybewarts_
 
 ### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
