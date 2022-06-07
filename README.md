@@ -41,8 +41,8 @@
 - [x] 5-5: _[Projeto - Arte com Pixels](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-dom-eventos-e-web-storage/dia-05-projeto-arte-com-pixels)_
 - [x] 5-6: _[(Bônus) Projeto - Lista de Tarefas](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-dom-eventos-e-web-storage/dia-06-projeto-lista-de-tarefas)_
 - [x] 5-7: _[(Bônus) Projeto - Carta Misteriosa](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-dom-eventos-e-web-storage/dia-07-projeto-carta-misteriosa)_
-- [x] 5-7: _[(Bônus) Projeto - Meme Generator](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-dom-eventos-e-web-storage/dia-06-projeto-lista-de-tarefas)_
-- [x] 5-7: _[(Bônus) Projeto - Adivinhe a Cor](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-dom-eventos-e-web-storage/dia-07-projeto-meme-generator)_
+- [x] 5-7: _[(Bônus) Projeto - Meme Generator](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-dom-eventos-e-web-storage/dia-07-projeto-meme-generator)_
+- [x] 5-7: _[(Bônus) Projeto - Adivinhe a Cor](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-dom-eventos-e-web-storage/dia-07-projeto-adivinhe-a-cor)_
 
 ### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
 
