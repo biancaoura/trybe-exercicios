@@ -85,3 +85,10 @@ h3 {
     background-color: aliceblue;
   }
 }
+
+@media screen and (min-width: 1025px) {
+  body {
+    background-color: honeydew;
+    max-width: 1300px;
+  }
+}
