@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap') ;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Didact Gothic, sans-serif;
+}
+
+body {
+  background-image: url('./bg.jpg');
+  background-size: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8%;
+  width: 30%;
+  padding: 40px;
+  gap: 30px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 10px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+header {
+  background-image: linear-gradient(-225deg, #b7f8db87 0%, #50a7c276 100%);
+  border-radius: 10px;
+  padding: 5px 12px;
+}
+
+.ball-container {
+  display: flex;
+  gap: 8px;
+}
+
+h3 {
+  display: inline;
+  margin-left: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: rgb(226, 226, 226);
+  border-radius: 3px;
+  border: 1px solid rgba(51, 51, 51, 0.3);
+}
+
+footer {
+  align-self: flex-end;
+  margin: auto 5px 3px auto;
+  color: rgb(97, 97, 97);
+  font-size: 11px;
+}
+
+a:link , a:active , a:visited {
+  text-decoration: none;
+  color: rgb(97, 97, 97);
+}
+
+/* OBRIGATÓRIO */
+.ball {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}

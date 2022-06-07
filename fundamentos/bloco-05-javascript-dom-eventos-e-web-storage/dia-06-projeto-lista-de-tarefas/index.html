@@ -4,19 +4,42 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/f08809103c.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
-  <header>
-    Minha Lista de Tarefas
-  </header>
-  <p id="funcionamento">
-    Clique duas vezes em um item para marcá-lo como completo
-  </p>
-  <input type="text" name="lista" placeholder="inserir tarefa" id="texto-tarefa">
-  <button type="submit" name="adicionar" id="criar-tarefa">Adicionar</button>
-  <ol id="lista-tarefas"></ol>
+  <div class="container">
+    <header>
+      <h1 class="is-size-2	">Minha Lista de Tarefas</h1>
+    </header>
+    <p id="funcionamento">
+      Clique duas vezes em um item para marcá-lo como completo
+    </p>
+    <section class="button-container">
+      <input
+      class="input"
+      type="text"
+      name="lista"
+      placeholder="inserir tarefa"
+      id="texto-tarefa">
+      <button
+      name="adicionar"
+      id="criar-tarefa">Adicionar</button>
+      <button
+      name="save"
+      id="salvar-tarefas">Salvar lista</button>
+      <button
+      id="mover-cima"><i class="fa-solid fa-angles-up"></i>
+      </button>
+      <button
+      id="mover-baixo"><i class="fa-solid fa-angles-down"></i>
+      </button>
+      <button
+      id="remover-selecionado">Excluir item</button>
+    </section>
+    <ol id="lista-tarefas"></ol>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
