@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif;
+}
+
+body {
+  font-weight: 300;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  padding: 1em;
+  color: white;
+  align-items: center;
+  width: 100%;
+  height: 7%;
+}
+
+.trybewarts-header-logo {
+  height: 3em;
+}
+
+#form {
+  display: flex;
+  gap: 1em;
+}
+
+#email , #psw {
+  padding: 5px 12px;
+  border-radius: 16px;
+  border: 1px solid darkgrey;
+}
+
+#login-btn , #submit-btn {
+  background-color: rgb(210, 232, 228);
+  padding: 7px 22px;
+  border-radius: 16px;
+  border: 1px solid rgb(15, 67, 58);
+  color: rgb(15, 67, 58);
+}
+
+#login-btn:hover {
+  background-color: rgb(223, 239, 236);
+  border: 1px solid rgb(39, 128, 113);
+  color: rgb(39, 128, 113);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 4em;
+  align-items: center;
+  min-height: 88vh;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  gap: 0.8em;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  margin: 1.2em;
+}
+
+.column {
+  display: flex;
+  gap: 1em;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.column > input {
+  padding: 7px 18px;
+  width: 50%;
+}
+
+input [ type = 'email' ] {
+  width: 80%;
+}
+
+.column > input , .column > select {
+  border-radius: 5px;
+  border: 1px solid darkgrey;
+}
+
+hr {
+  width: 90%;
+  margin: 20px 0;
+}
+
+.radio-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  height: 130px;
+}
+
+.radio , .radio-opt {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+}
+
+.radio-opt {
+  flex-wrap: wrap;
+}
+
+.rating {
+  width: 90%;
+  display: flex;
+  gap: 12px;
+}
+
+.txt-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+#textarea {
+  resize: none;
+}
+
+.p {
+  display: flex;
+  align-self: flex-end;
+  font-size: 11px;
+}
+
+#agreement , #family1 , #family2 , #family3 , .subject {
+  margin-right: 5px;
+}
+
+#submit-btn {
+  margin: 20px 0;
+}
+
+#submit-btn:disabled {
+  background: rgb(233, 236, 239);
+  color: rgb(108, 117, 125);
+  border: 1px solid rgb(108, 117, 125);
+  margin: 20px 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(173, 181, 189);
+  height: 5%;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  order: 1;
+}
