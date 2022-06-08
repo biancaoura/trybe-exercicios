@@ -44,7 +44,7 @@
 - [x] 5-7: _[(Bônus) Projeto - Meme Generator](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-dom-eventos-e-web-storage/dia-07-projeto-meme-generator)_
 - [x] 5-7: _[(Bônus) Projeto - Adivinhe a Cor](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-dom-eventos-e-web-storage/dia-07-projeto-adivinhe-a-cor)_
 
-### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
+### [Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-06-html-e-css-forms-flexbox-e-responsivo)
 
 - [x] 6-1: _HTML & CSS - Forms_
 - [x] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
@@ -52,7 +52,7 @@
 - [x] 6-3: _CSS Flexbox - Parte 1_
 - [x] 6-4: _CSS Flexbox - Parte 2_
 - [x] 6-5: _CSS Responsivo - Mobile First_
-- [ ] 6-6: _Projeto - Trybewarts_
+- [x] 6-6: _[Projeto - Trybewarts](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-06-html-e-css-forms-flexbox-e-responsivo/dia-06-projeto-trybewarts)_
 
 ### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
 
