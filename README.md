@@ -1,4 +1,4 @@
-<span style="text-decoration: underline">Este repositório contém todas as atividades realizadas durante o aprendizado na [Trybe](https://www.betrybe.com/).</span>
+>Este repositório contém todas as atividades realizadas durante o aprendizado na [Trybe](https://www.betrybe.com/).
 
 # Fundamentos do Desenvolvimento Web
 
@@ -54,10 +54,10 @@
 - [x] 6-5: _CSS Responsivo - Mobile First_
 - [x] 6-6: _[Projeto - Trybewarts](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-06-html-e-css-forms-flexbox-e-responsivo/dia-06-projeto-trybewarts)_
 
-### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
+### [Bloco 7: Introdução à JavaScript ES6 e Testes Unitários](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-07-introducao-a-javascript-es6-e-testes-unitarios)
 
-- [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
-- [ ] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
+- [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [x] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
 - [ ] 7-3: _Primeiros passos em Jest_
 - [ ] 7-4: _Projeto - JavaScript Testes Unitários_
 
