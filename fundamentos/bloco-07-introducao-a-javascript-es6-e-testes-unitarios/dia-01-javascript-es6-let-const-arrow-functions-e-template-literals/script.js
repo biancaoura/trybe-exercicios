@@ -72,21 +72,19 @@ console.log(longestWord('Hoje eu acordei feliz'));
 // HTML
 
 // EXERCÍCIO 4 - SUBSTITUIR X NA STRING
-const skills = ['JavaScript', 'HTML', 'CSS', 'Git', 'Bash'];
 
-function replace(string) {
-  const word = (name) => (`Tryber ${name} aqui!
-  Tudo bem?`
-  );
-  let result = `${word(string)}
-Minhas cinco principais habilidades são:`;
-  skills.forEach((skill) => result = `${result}
-- ${skill}`);
-  result = `
-  ${result}
-  #goTrybe
-  `;
+const replaceX = (name) => {
+  const frase = 'Tryber x aqui!';
+  return frase.replace('x', name);
+};
 
-  return result;
-}
-console.log(replace('sem nome'));
+const phrase = (greeting) => {
+  const skills = ['JavaScript', 'HTML', 'CSS'];
+  console.log(`${greeting}
+  Minhas três principais habilidades são:`);
+  skills.forEach((skill) => {
+    console.log(`
+    - ${skill}`);
+  });
+};
+console.log(phrase(replaceX('sem nome')));
