@@ -130,3 +130,32 @@ const verifyPair = (obj, key, value) => {
   return false;
 };
 console.log(verifyPair(lesson3, 'turno', 'noite'));
+
+// BÔNUS 1 - CONTAR ESTUDANTES QUE ASSISTIRAM AULA DE MAT
+function countStudents(obj, subject) {
+  const lessons = Object.keys(obj);
+  let students = 0;
+  for (let i = 0; i < lessons.length; i += 1) {
+    if (obj[lessons[i]].materia === subject) {
+      students += obj[lessons[i]].numeroEstudantes;
+    }
+  }
+  return students;
+}
+console.log(countStudents(allLessons, 'Matemática'));
+
+// BÔNUS 2 - REPORT DE AULAS E ESTUDANTES DO PROF
+const createReport = (obj, teacher) => {
+  const values = Object.values(obj);
+  const newArray = [];
+  let students = 0;
+  for (let i = 0; i < values.length; i += 1) {
+    const indexValues = Object.values(values[i]);
+    if (indexValues.includes(teacher)) {
+      newArray.push(values[i].materia);
+      students += values[i].numeroEstudantes;
+    }
+  }
+  return { professor: teacher, aulas: newArray, estudantes: students };
+};
+console.log(createReport(allLessons, 'Maria Clara'));
