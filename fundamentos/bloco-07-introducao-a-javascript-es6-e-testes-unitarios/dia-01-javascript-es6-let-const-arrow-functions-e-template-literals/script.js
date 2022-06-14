@@ -80,11 +80,12 @@ const replaceX = (name) => {
 
 const phrase = (greeting) => {
   const skills = ['JavaScript', 'HTML', 'CSS'];
-  console.log(`${greeting}
-  Minhas três principais habilidades são:`);
-  skills.forEach((skill) => {
-    console.log(`
-    - ${skill}`);
+  let sentence = `${greeting}
+Minhas três principais habilidades são:`;
+  skills.forEach((skill) => { // forEach sempre retorna undefined
+    sentence = `${sentence}
+    - ${skill}`;
   });
+  return sentence;
 };
 console.log(phrase(replaceX('sem nome')));
