@@ -59,16 +59,18 @@
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [x] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
 - [x] 7-3: _Primeiros passos em Jest_
-- [ ] 7-4: _Projeto - JavaScript Testes Unitários_
+- [x] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-07-introducao-a-javascript-es6-e-testes-unitarios/dia-04-projeto-javascript-testes-unitarios)_
 
-### Bloco 8: Higher Order Functions do JavaScript ES6
+### [Bloco 8: Higher Order Functions do JavaScript ES6](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-08-higher-order-functions-do-javascript-es6)
 
-- [ ] 8-1: _JavaScript ES6 - Introdução à Higher Order Functions_
+- [x] 8-1: _JavaScript ES6 - Introdução à Higher Order Functions_
 - [ ] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 - [ ] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [ ] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 - [ ] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
 - [ ] 8-6: _Projeto - Zoo functions_
+
+# Desenvolvimento Front-end
 
 ### Bloco 9: JavaScript e Testes Assíncronos
 
@@ -76,8 +78,6 @@
 - [ ] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
 - [ ] 9-3: _Jest - Testes Assíncronos_
 - [ ] 9-4: _Projeto - Carrinho de Compras_
-
-# Desenvolvimento Front-end
 
 ### Bloco 10: Introdução à React
 
