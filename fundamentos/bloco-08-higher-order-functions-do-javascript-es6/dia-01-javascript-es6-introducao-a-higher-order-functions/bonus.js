@@ -1,4 +1,5 @@
 // GAME ACTIONS SIMULATOR - SIMULAR BATALHA DE JOGO
+
 // PARTE I - CALCULAR DMG DE 3 CHAR
 
 const mage = {
@@ -43,3 +44,39 @@ const mageDmg = () => {
   mana -= 15;
   return { damage: dmg, mana };
 };
+
+// PARTE II - PASSAR FUNÇÕES COMO PARÂMETRO DE OUTRAS FUNÇÕES
+const gameActions = {
+
+  // EXERCÍCIO 1 - TURNO DE WARRIOR
+  warriorTurn: (warrDmgFn) => {
+    const warrDmg = warrDmgFn();
+    dragon.healthPoints -= warrDmg;
+    warrior.damage = warrDmg;
+  },
+
+  // EXERCÍCIO 2 - TURNO DE MAGE
+  mageTurn: (mageDmgFn) => {
+    const mageStats = mageDmgFn();
+    mage.damage = mageStats.damage;
+    mage.mana = mageStats.mana;
+    dragon.healthPoints -= mageStats.damage;
+  },
+
+  // EXERCÍCIO 3 - TURNO DE DRAGON
+  dragonTurn: (dragonDmgFn) => {
+    const dragDmg = dragonDmgFn();
+    dragon.damage = dragDmg;
+    warrior.healthPoints -= dragDmg;
+    mage.healthPoints -= dragDmg;
+  },
+
+  // EXERCÍCIO 4 - RESULTADO DO TURNO
+  turnResult: () => battleMembers,
+};
+
+gameActions.warriorTurn(warriorDmg);
+gameActions.mageTurn(mageDmg);
+gameActions.dragonTurn(dragonDmg);
+
+console.log(gameActions.turnResult());
