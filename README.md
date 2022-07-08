@@ -72,10 +72,10 @@
 
 # Desenvolvimento Front-end
 
-### Bloco 9: JavaScript e Testes Assíncronos
+### [Bloco 9: JavaScript e Testes Assíncronos](https://github.com/biancaoura/trybe-exercicios/tree/main/front-end/bloco-09-javascript-e-testes-assincronos)
 
 - [x] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
+- [x] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
 - [ ] 9-3: _Jest - Testes Assíncronos_
 - [ ] 9-4: _Projeto - Carrinho de Compras_
 
