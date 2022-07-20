@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  gap: 15px;
+}
+
+.card {
+  background: rgb(202, 202, 202);
+  border-radius: 8px;
+  gap: 12px;
+  padding: 25px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
