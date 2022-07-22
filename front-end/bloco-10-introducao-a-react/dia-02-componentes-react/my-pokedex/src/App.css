@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pokedex {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  grid-auto-rows: auto;
+  grid-gap: 40px;
+}
+
+.pokemon {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.427);
+  border: 2px solid #e7e7e7;
+  border-radius: 4px;
+  padding: 1em;
+}
