@@ -77,18 +77,18 @@
 - [x] 9-1: _JavaScript Assíncrono e Callbacks_
 - [x] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
 - [x] 9-3: _Jest - Testes Assíncronos_
-- [x] 9-4: _Projeto - Carrinho de Compras_
+- [x] 9-4: _[Projeto - Carrinho de Compras](https://github.com/biancaoura/trybe-exercicios/tree/main/front-end/bloco-09-javascript-e-testes-assincronos/dia-04-projeto-carrinho-de-compras)_
 
 ### [Bloco 10: Introdução à React](https://github.com/biancaoura/trybe-exercicios/tree/main/front-end/bloco-10-introducao-a-react)
 
 - [x] 10-1: _Introdução - React_
 - [x] 10-1: _'Hello, world!' no React!_
 - [x] 10-2: _Componentes React_
-- [ ] 10-3: _Projeto - Sistema Solar_
+- [x] 10-3: _Projeto - Sistema Solar_
 
 ### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 
-- [ ] 11-1: _Componentes com estado e eventos_
+- [x] 11-1: _Componentes com estado e eventos_
 - [ ] 11-2: _Formulários no React_
 - [ ] 11-3: _Projeto - Tryunfo_
 
