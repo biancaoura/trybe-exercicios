@@ -68,7 +68,7 @@
 - [x] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [x] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 - [x] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
-- [x] 8-6: _Projeto - Zoo functions_
+- [x] 8-6: _[Projeto - Zoo functions](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-08-higher-order-functions-do-javascript-es6/dia-06-projeto-zoo-functions)_
 
 # Desenvolvimento Front-end
 
