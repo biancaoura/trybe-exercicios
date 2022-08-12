@@ -95,17 +95,17 @@
 ### [Bloco 12: Ciclo de Vida de Componentes e React Router](https://github.com/biancaoura/trybe-exercicios/tree/main/front-end/bloco-12-ciclo-de-vida-de-componentes-e-react-router)
 
 - [x] 12-1: _Ciclo de vida de componentes_
-- [ ] 12-2: _React Router_
-- [ ] 12-3: _Projeto - TrybeTunes_
+- [x] 12-2: _React Router_
+- [x] 12-3: _Projeto - TrybeTunes_
 
 ### Bloco 13: Metodologias Ágeis
 
-- [ ] 13-1: _Metodologias Ágeis_
-- [ ] 13-2: _Projeto - Frontend Online Store_
+- [x] 13-1: _Metodologias Ágeis_
+- [x] 13-2: _Projeto - Frontend Online Store_
 
 ### Bloco 14: Testes automatizados com React Testing Library
 
-- [ ] 14-1: _RTL - Primeiros passos_
+- [x] 14-1: _RTL - Primeiros passos_
 - [ ] 14-2: _RTL - Mocks e Inputs_
 - [ ] 14-3: _Testando React Router_
 - [ ] 14-4: _Projeto - Testes em React_
