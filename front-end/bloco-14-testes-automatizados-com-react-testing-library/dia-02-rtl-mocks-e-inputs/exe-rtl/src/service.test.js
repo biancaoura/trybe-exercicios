@@ -37,3 +37,35 @@ test('mocking function to return the double value of argument', () => {
   expect(service.randomNumber).toHaveBeenCalledTimes(1);
   expect(service.randomNumber).toHaveBeenCalledWith(5);
 });
+
+test('mocking function to return string in lowercase', () => {
+  // service.upperCase = jest.fn().mockImplementation((string) => string.toLowerCase());
+  const mockedFirstFunction = jest.spyOn(service, "upperCase").mockImplementation((string) => string.toLowerCase());
+
+  expect(mockedFirstFunction('Random String')).toBe('random string');
+  expect(mockedFirstFunction).toHaveBeenCalledTimes(1);
+  expect(mockedFirstFunction).toHaveBeenCalledWith('Random String');
+});
+
+test('mocking function to return string\'s last letter', () => {
+  const mockedSecondFunction = jest.spyOn(service, "firstLetter").mockImplementation((string) => string.slice(string.length - 1));
+
+  expect(mockedSecondFunction('abcdefg')).toBe('g');
+  expect(mockedSecondFunction).toHaveBeenCalledTimes(1);
+  expect(mockedSecondFunction).toHaveBeenCalledWith('abcdefg');
+});
+
+test('mocking function to return three concatenated strings', () => {
+  const mockedThirdFunction = jest.spyOn(service, "concatStrings")
+    .mockImplementation((string1, string2, string3) => string1 + string2 + string3);
+
+  expect(mockedThirdFunction('a', 'b', 'c')).toBe('abc');
+  expect(mockedThirdFunction).toHaveBeenCalledTimes(1);
+  expect(mockedThirdFunction).toHaveBeenCalledWith('a', 'b', 'c');
+});
+
+test('resetting first function and checking if original implementation works', () => {
+  service.upperCase.mockRestore();
+
+  expect(service.upperCase('Uppercase')).toBe('UPPERCASE');
+});
