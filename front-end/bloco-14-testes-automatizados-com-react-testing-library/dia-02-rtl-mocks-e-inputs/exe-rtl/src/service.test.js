@@ -40,7 +40,7 @@ test('mocking function to return the double value of argument', () => {
 
 test('mocking function to return string in lowercase', () => {
   // service.upperCase = jest.fn().mockImplementation((string) => string.toLowerCase());
-  const mockedFirstFunction = jest.spyOn(service, "upperCase").mockImplementation((string) => string.toLowerCase());
+  const mockedFirstFunction = jest.spyOn(service, 'upperCase').mockImplementation((string) => string.toLowerCase());
 
   expect(mockedFirstFunction('Random String')).toBe('random string');
   expect(mockedFirstFunction).toHaveBeenCalledTimes(1);
@@ -56,7 +56,7 @@ test('mocking function to return string\'s last letter', () => {
 });
 
 test('mocking function to return three concatenated strings', () => {
-  const mockedThirdFunction = jest.spyOn(service, "concatStrings")
+  const mockedThirdFunction = jest.spyOn(service, 'concatStrings')
     .mockImplementation((string1, string2, string3) => string1 + string2 + string3);
 
   expect(mockedThirdFunction('a', 'b', 'c')).toBe('abc');
@@ -68,4 +68,27 @@ test('resetting first function and checking if original implementation works', (
   service.upperCase.mockRestore();
 
   expect(service.upperCase('Uppercase')).toBe('UPPERCASE');
+});
+
+describe('testing API request', () => {
+  service.fetchDog = jest.fn();
+  afterEach(service.fetchDog.mockReset);
+  
+  test('if request was successful', async () => {
+    service.fetchDog.mockResolvedValue('success');
+
+    service.fetchDog();
+    expect(service.fetchDog).toHaveBeenCalled();
+    expect(service.fetchDog).toHaveBeenCalledTimes(1);
+    await expect(service.fetchDog()).resolves.toBe('success');
+    expect(service.fetchDog).toHaveBeenCalledTimes(2);
+  });
+
+  test('if request was rejected', async () => {
+    service.fetchDog.mockRejectedValue('request failed');
+
+    expect(service.fetchDog).toHaveBeenCalledTimes(0);
+    await expect(service.fetchDog()).rejects.toBe('request failed');
+    expect(service.fetchDog).toHaveBeenCalledTimes(1);
+  });
 });
