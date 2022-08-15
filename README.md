@@ -106,8 +106,8 @@
 ### Bloco 14: Testes automatizados com React Testing Library
 
 - [x] 14-1: _RTL - Primeiros passos_
-- [ ] 14-2: _RTL - Mocks e Inputs_
-- [ ] 14-3: _Testando React Router_
+- [x] 14-2: _RTL - Mocks e Inputs_
+- [x] 14-3: _Testando React Router_
 - [ ] 14-4: _Projeto - Testes em React_
 
 ### Bloco 15: Gerenciamento de estado com Redux
