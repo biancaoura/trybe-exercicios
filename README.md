@@ -84,7 +84,7 @@
 - [x] 10-1: _Introdução - React_
 - [x] 10-1: _'Hello, world!' no React!_
 - [x] 10-2: _Componentes React_
-- [x] 10-3: _Projeto - Sistema Solar_
+- [x] 10-3: _[Projeto - Sistema Solar](https://github.com/biancaoura/project-solar-system)_
 
 ### [Bloco 11: Componentes com Estado, Eventos e Formulários com React](https://github.com/biancaoura/trybe-exercicios/tree/main/front-end/bloco-11-componentes-com-estado-eventos-e-formularios-com-react)
 
