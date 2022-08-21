@@ -28,6 +28,11 @@
 
       const themeReducer = (state = THEME_INITIAL_STATE, action) => {
         switch (action.type) {
+          case 'TOGGLE_THEME':
+            return {
+              ...state,
+              theme: state.theme === 'dark' ? 'light' : 'dark',
+            }
           default:
             return state;
         }
@@ -39,6 +44,11 @@
 
       const statusReducer = (state = STATUS_INITIAL_STATE, action) => {
         switch (action.type) {
+          case 'TOGGLE_STATUS':
+            return {
+              ...state,
+              status: state.status === 'offline' ? 'online' : 'offline',
+            }
           default:
             return state;
         }
