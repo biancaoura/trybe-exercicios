@@ -53,7 +53,9 @@
           default: 
             return INITIAL_STATE;
         }
-      }
+      };
+
+      const store = Redux.createStore(reducer);
 
       const nextBtn = document.getElementById('next');
       const prevBtn = document.getElementById('previous');
@@ -66,7 +68,15 @@
         store.dispatch({ type: 'PREVIOUS_COLOR' });
       });
 
-      const store = Redux.createStore(reducer);
+      const colorContainer = document.getElementById('container');
+      const colorTag = document.getElementById('value');
+
+      store.subscribe(() => {
+        const { colors, index } = store.getState();
+        colorTag.innerHTML = colors[index];
+        colorContainer.style.backgroundColor = colors[index];
+      });
+
     </script>
   </body>
 </html>
