@@ -69,6 +69,32 @@
       statusButton.addEventListener('click', () => {
         store.dispatch({ type: 'TOGGLE_STATUS' });
       });
+
+      const togThemeBtn = document.getElementById('toggle-theme');
+      const togStatusBtn = document.getElementById('toggle-status');
+      const body = document.querySelector('body');
+      const currStatus = document.getElementById('status');
+
+      store.subscribe(() => {
+        const state = store.getState();
+        if (state.themeReducer.theme === 'light') {
+          togThemeBtn.innerHTML = 'Dark mode';
+          body.style.backgroundColor = 'white';
+          body.style.color = '#333';
+        } else {
+          togThemeBtn.innerHTML = 'Light mode';
+          body.style.backgroundColor = '#333';
+          body.style.color = 'white';
+        }
+
+        if (state.statusReducer.status === 'online') {
+          togStatusBtn.innerHTML = 'Change status to Offline';
+          currStatus.innerText = 'Online';
+        } else {
+          togStatusBtn.innerHTML = 'Change status to Online';
+          currStatus.innerText = 'Offline';
+        }
+      })
     </script>
   </body>
 </html>
