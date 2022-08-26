@@ -44,4 +44,15 @@ describe('testing clicks', () => {
 
     expect(screen.getByText('1')).toBeInTheDocument();
   });
+
+  test('clicking the button should work the same even if initial value is 10', () => {
+    renderWithRedux(<App />, { initialState: { clickReducer: { counter: 10 } } });
+
+    expect(screen.getByText('10')).toBeInTheDocument();
+
+    const addBtn = screen.getByText('Clique aqui');
+    userEvent.click(addBtn);
+
+    expect(screen.getByText('11')).toBeInTheDocument();
+  });
 });
