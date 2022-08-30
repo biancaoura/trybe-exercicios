@@ -117,7 +117,7 @@
 - [x] 15-3: _Usando o Redux no React - Prática_
 - [x] 15-4: _Usando o Redux no React - Actions Assíncronas_
 - [x] 15-5: _Testes em React-Redux_
-- [ ] 15-6: _Projeto - Trybe Wallet_
+- [x] 15-6: _Projeto - Trybe Wallet_
 
 ### Bloco 16: Projeto Jogo de Trivia
 
