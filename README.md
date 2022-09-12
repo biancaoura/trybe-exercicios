@@ -101,7 +101,7 @@
 ### Bloco 13: Metodologias Ágeis
 
 - [x] 13-1: _Metodologias Ágeis_
-- [x] 13-2: _Projeto - Frontend Online Store_
+- [x] 13-2: _[Projeto - Frontend Online Store](https://github.com/biancaoura/project-frontend-online-store)_
 
 ### [Bloco 14: Testes automatizados com React Testing Library](https://github.com/biancaoura/trybe-exercicios/tree/main/front-end/bloco-14-testes-automatizados-com-react-testing-library/)
 
@@ -117,7 +117,7 @@
 - [x] 15-3: _Usando o Redux no React - Prática_
 - [x] 15-4: _Usando o Redux no React - Actions Assíncronas_
 - [x] 15-5: _Testes em React-Redux_
-- [x] 15-6: _Projeto - Trybe Wallet_
+- [x] 15-6: _[Projeto - Trybe Wallet](https://github.com/biancaoura/project-trybewallet)_
 
 ### Bloco 16: Projeto Jogo de Trivia
 
