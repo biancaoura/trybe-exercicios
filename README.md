@@ -108,7 +108,7 @@
 - [x] 14-1: _RTL - Primeiros passos_
 - [x] 14-2: _RTL - Mocks e Inputs_
 - [x] 14-3: _Testando React Router_
-- [x] 14-4: _Projeto - Testes em React_
+- [x] 14-4: _[Projeto - Testes em React](https://github.com/biancaoura/project-react-testing-library)_
 
 ### [Bloco 15: Gerenciamento de estado com Redux](https://github.com/biancaoura/trybe-exercicios/tree/main/front-end/bloco-15-gerenciamento-de-estado-com-redux)
 
