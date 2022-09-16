@@ -121,12 +121,12 @@
 
 ### Bloco 16: Projeto Jogo de Trivia
 
-- [x] 16-1: _Projeto - Jogo de Trivia_
+- [x] 16-1: _[Projeto - Jogo de Trivia]((https://github.com/biancaoura/project-trivia-react-redux))_
 
-### Bloco 17: Context API e React Hooks
+### [Bloco 17: Context API e React Hooks](https://github.com/biancaoura/trybe-exercicios/tree/main/front-end/bloco-17-context-api-e-react-hooks)
 
 - [x] 17-1: _Context API do React_
-- [ ] 17-2: _React Hooks - useState e useContext_
+- [x] 17-2: _React Hooks - useState e useContext_
 - [ ] 17-3: _React Hooks - useEffect e Hooks customizados_
 - [ ] 17-4: _Projeto - StarWars Datatable com Context API e Hooks_
 
