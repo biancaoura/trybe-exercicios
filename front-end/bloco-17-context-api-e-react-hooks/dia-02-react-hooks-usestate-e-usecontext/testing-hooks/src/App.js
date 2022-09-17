@@ -1,11 +1,12 @@
 import React from 'react';
-// import FormProvider from './context/FormProvider';
-import Form from './Form';
+import Form from './pages/Form';
+import StudentInfo from './pages/StudentInfo';
 
 function App() {
   return (
     <div>
       <Form />
+      <StudentInfo />
     </div>
   );
 }
