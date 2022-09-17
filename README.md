@@ -121,7 +121,7 @@
 
 ### Bloco 16: Projeto Jogo de Trivia
 
-- [x] 16-1: _[Projeto - Jogo de Trivia]((https://github.com/biancaoura/project-trivia-react-redux))_
+- [x] 16-1: _[Projeto - Jogo de Trivia](https://github.com/biancaoura/project-trivia-react-redux)_
 
 ### [Bloco 17: Context API e React Hooks](https://github.com/biancaoura/trybe-exercicios/tree/main/front-end/bloco-17-context-api-e-react-hooks)
 
