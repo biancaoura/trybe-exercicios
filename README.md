@@ -92,7 +92,7 @@
 - [x] 11-2: _Formulários no React_
 - [x] 11-3: _[Projeto - Tryunfo](https://github.com/biancaoura/project-tryunfo)_
 
-### [Bloco 12: Ciclo de Vida de Componentes e React Router](https://github.com/biancaoura/trybe-exercicios/tree/main/front-end/bloco-12-ciclo-de-vida-de-componentes-e-react-router)
+### Bloco 12: Ciclo de Vida de Componentes e React Router
 
 - [x] 12-1: _Ciclo de vida de componentes_
 - [x] 12-2: _React Router_
