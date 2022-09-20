@@ -127,7 +127,7 @@
 
 - [x] 17-1: _Context API do React_
 - [x] 17-2: _React Hooks - useState e useContext_
-- [ ] 17-3: _React Hooks - useEffect e Hooks customizados_
+- [x] 17-3: _React Hooks - useEffect e Hooks customizados_
 - [ ] 17-4: _Projeto - StarWars Datatable com Context API e Hooks_
 
 ### Bloco 18: Projeto App de Receitas
