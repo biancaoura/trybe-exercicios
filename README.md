@@ -15,7 +15,6 @@
 
 ### [Bloco 3: Introdução à HTML e CSS](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-03-introducao-a-html-e-css)
 
-- [x] 3-1: _Introdução - HTML & CSS_
 - [x] 3-1: _HTML & CSS - Estruturas de página_
 - [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [x] 3-3: _HTML & CSS - Seletores e posicionamento_
@@ -24,7 +23,6 @@
 
 ### [Bloco 4: Introdução à JavaScript e Lógica de Programação](https://github.com/biancaoura/trybe-exercicios/tree/main/fundamentos/bloco-04-introducao-a-javascript-e-logica-de-programacao)
 
-- [x] 4-1: _Introdução - JavaScript_
 - [x] 4-1: _JavaScript - Primeiros passos_
 - [x] 4-2: _JavaScript - Array e loop For_
 - [x] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
@@ -81,7 +79,6 @@
 
 ### [Bloco 10: Introdução à React](https://github.com/biancaoura/trybe-exercicios/tree/main/front-end/bloco-10-introducao-a-react)
 
-- [x] 10-1: _Introdução - React_
 - [x] 10-1: _'Hello, world!' no React!_
 - [x] 10-2: _Componentes React_
 - [x] 10-3: _[Projeto - Sistema Solar](https://github.com/biancaoura/project-solar-system)_
@@ -138,15 +135,13 @@
 
 ### Bloco 19: Docker: Utilizando Containers
 
-- [x] 19-1: _Introdução - Back-end_
 - [x] 19-1: _Utilizando Containers - Docker_
-- [ ] 19-2: _Manipulação e Criação de Imagens no Docker_
+- [ ] 19-2: _Manipulando Imagens no Docker_
 - [ ] 19-3: _Orquestrando Containers com Docker Compose_
 - [ ] 19-4: _Projeto - Docker Todo-List_
 
 ### Bloco 20: Introdução à SQL
 
-- [ ] 20-1: _Introdução - Banco de dados relacionais_
 - [ ] 20-1: _Banco de dados SQL_
 - [ ] 20-2: _Encontrando dados em um banco de dados_
 - [ ] 20-3: _Filtrando dados de forma específica_
@@ -162,42 +157,36 @@
 
 ### Bloco 22: Introdução ao desenvolvimento Web com Node.js
 
-- [ ] 22-1: _Intro - Node.js_
-- [ ] 22-1: _Node.js - Um motor JavaScript_
-- [ ] 22-2: _Node.js - Fluxo Assíncrono_
-- [ ] 22-3: _Mocha, Chai e Sinon - Testes de Back-end com Node.js_
-- [ ] 22-4: _Express - HTTP com Node.js_
-- [ ] 22-5: _Express - Middlewares_
+- [ ] 22-1: _Node.js - Runtime Assíncrono_
+- [ ] 22-2: _Node.js - API REST com Express_
+- [ ] 22-3: _Node.js - Testes de Integração_
+- [ ] 22-4: _Node.js - Express e Middlewares_
+- [ ] 22-5: _Node.js - Express e MySQL_
 - [ ] 22-6: _Atividades + Projeto - Talker Manager_
 
-### Bloco 23: Node.js: Camada de Serviço e Arquitetura Rest e Restful
+### Bloco 23: Arquitetura de Software: Model, Service e Controller
 
-- [ ] 23-1: _Introdução - Arquitetura de Software_
 - [ ] 23-1: _Arquitetura de Software - Camada de Model_
-- [ ] 23-2: _Arquitetura de Software - Camada de Controller e Service_
-- [ ] 23-3: _Arquitetura Web - Rest e Restful_
-- [ ] 23-4: _Arquitetura de Software - Testando as Camadas_
-- [ ] 23-5: _Projeto - Store Manager_
+- [ ] 23-2: _Arquitetura de Software - Camada Service_
+- [ ] 23-3: _Arquitetura de Software - Camada Controller_
+- [ ] 23-4: _Projeto - Store Manager_
 
 ### Bloco 24: Node.js: ORM e Autenticação
 
-- [ ] 24-1: _Introdução - Node.js: ORM e Autenticação_
 - [ ] 24-1: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 24-2: _ORM - Associations_
-- [ ] 24-3: _JWT - (JSON Web Token)_
-- [ ] 24-4: _Testando APIs com Testes de Integração_
+- [ ] 24-2: _ORM - Associations 1:1 e 1:N_
+- [ ] 24-3: _ORM - Associations N:N e Transactions_
+- [ ] 24-4: _JWT - (JSON Web Token)_
 - [ ] 24-5: _Projeto - API de Blogs_
 
 ### Bloco 25: Deployment
 
-- [ ] 25-1: _Introdução - Deploy_
 - [ ] 25-1: _Infraestrutura - Deploy com Heroku_
 - [ ] 25-2: _Deploy Docker & Heroku_
 - [ ] 25-3: _Projeto - Stranger Things_
 
-### Bloco 26: TypeScript
+### Bloco 26: Introdução ao TypeScript
 
-- [ ] 26-1: _Introdução - TypeScript_
 - [ ] 26-1: _Introdução ao TypeScript_
 - [ ] 26-2: _Tipagem Estática e Generics_
 - [ ] 26-3: _Express com TypeScript_
@@ -206,7 +195,7 @@
 ### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
 
 - [ ] 27-1: _Introdução à Orientação a Objetos_
-- [ ] 27-2: _Heranças e Interfaces_
+- [ ] 27-2: _Herança e Interfaces_
 - [ ] 27-3: _Polimorfismo_
 - [ ] 27-4: _SOLID - Introdução e Princípios S, O e D_
 - [ ] 27-5: _SOLID - Princípios L e I_
@@ -218,7 +207,6 @@
 
 ### Bloco 29: Introdução ao MongoDB
 
-- [ ] 29-1: _Introdução - NoSQL_
 - [ ] 29-1: _MongoDB - Introdução_
 - [ ] 29-2: _Filter Operators_
 - [ ] 29-3: _Operadores de consulta_
@@ -228,8 +216,8 @@
 
 ### Bloco 30: MongoDB com Node.js e POO
 
-- [ ] 30-1: _MongoDB e arquitetura MSC_
-- [ ] 30-2: _MongoDB e POO_
+- [ ] 30-1: _Mongoose e arquitetura MSC (Camada Model)_
+- [ ] 30-2: _Mongoose e arquitetura MSC (Camada Service e Controller)_
 - [ ] 30-3: _Projeto - Car Shop_
 
 ### Bloco 31: Projeto - App de Delivery
@@ -238,14 +226,13 @@
 
 ### Bloco 32: MasterClass - VPS, CI/CD
 
-- [ ] 32-1: _Dia 1_
+- [ ] 32-1: _VPS_
 - [ ] 32-2: _Dia 2_
 
 # Ciência da Computação
 
 ### Bloco 33: Introdução à Python
 
-- [ ] 30-1: _Introdução - Ciência da Computação_
 - [ ] 30-1: _Aprendendo Python_
 - [ ] 30-2: _Entrada e Saída de Dados_
 - [ ] 30-3: _Testes_
