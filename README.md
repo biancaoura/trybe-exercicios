@@ -136,7 +136,7 @@
 ### Bloco 19: Docker: Utilizando Containers
 
 - [x] 19-1: _Utilizando Containers - Docker_
-- [ ] 19-2: _Manipulando Imagens no Docker_
+- [x] 19-2: _Manipulando Imagens no Docker_
 - [ ] 19-3: _Orquestrando Containers com Docker Compose_
 - [ ] 19-4: _Projeto - Docker Todo-List_
 
