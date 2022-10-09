@@ -133,7 +133,7 @@
 
 # Desenvolvimento Back-end
 
-### Bloco 19: Docker: Utilizando Containers
+### [Bloco 19: Docker: Utilizando Containers](https://github.com/biancaoura/trybe-exercicios/tree/main/back-end/bloco-19-docker-utilizando-containers)
 
 - [x] 19-1: _Utilizando Containers - Docker_
 - [x] 19-2: _Manipulando Imagens no Docker_
