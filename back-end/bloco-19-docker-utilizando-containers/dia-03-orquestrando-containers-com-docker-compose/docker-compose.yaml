@@ -14,9 +14,21 @@ services:
       database__connection__password: password
     depends_on:
       - database
+    networks:
+      - my-network
   database:
     image: mysql:5.7
     platform: linux/x86_64
     environment:
       MYSQL_ROOT_PASSWORD: password
       # - MYSQL_ROOT_PASSWORD=password
+    volumes:
+      - data:/var/lib/mysql
+    networks:
+      - my-network
+
+volumes:
+  data:
+
+networks:
+  my-network:
