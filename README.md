@@ -140,12 +140,12 @@
 - [x] 19-3: _Orquestrando Containers com Docker Compose_
 - [x] 19-4: _[Projeto - Docker Todo-List](https://github.com/biancaoura/project-docker-todo-list)_
 
-### Bloco [20: Introdução à SQL](https://github.com/biancaoura/trybe-exercicios/tree/main/back-end/bloco-20-introducao-a-sql)
+### [Bloco 20: Introdução à SQL](https://github.com/biancaoura/trybe-exercicios/tree/main/back-end/bloco-20-introducao-a-sql)
 
 - [x] 20-1: _Banco de dados SQL_
 - [x] 20-2: _Encontrando dados em um banco de dados_
 - [x] 20-3: _Filtrando dados de forma específica_
-- [ ] 20-4: _Manipulando tabelas_
+- [x] 20-4: _Manipulando tabelas_
 - [ ] 20-5: _Projeto - All For One_
 
 ### Bloco 21: Funções SQL, JOINs e Normalização
