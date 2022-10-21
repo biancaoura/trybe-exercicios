@@ -148,10 +148,10 @@
 - [x] 20-4: _Manipulando tabelas_
 - [x] 20-5: _Projeto - All For One_
 
-### Bloco 21: Funções SQL, JOINs e Normalização
+### [Bloco 21: Funções SQL, JOINs e Normalização](https://github.com/biancaoura/trybe-exercicios/tree/main/back-end/bloco-21-funcoes-sql-joins-e-normalizacao)
 
 - [x] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs_
+- [x] 21-2: _Descomplicando JOINs_
 - [ ] 21-3: _Transformando ideias em um modelo de banco de dados_
 - [ ] 21-4: _Aula ao vivo + Projeto - One For All_
 
