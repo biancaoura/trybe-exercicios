@@ -152,7 +152,7 @@
 
 - [x] 21-1: _Funções mais usadas no SQL_
 - [x] 21-2: _Descomplicando JOINs_
-- [ ] 21-3: _Transformando ideias em um modelo de banco de dados_
+- [x] 21-3: _Transformando ideias em um modelo de banco de dados_
 - [ ] 21-4: _Aula ao vivo + Projeto - One For All_
 
 ### Bloco 22: Introdução ao desenvolvimento Web com Node.js
