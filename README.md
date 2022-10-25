@@ -146,14 +146,14 @@
 - [x] 20-2: _Encontrando dados em um banco de dados_
 - [x] 20-3: _Filtrando dados de forma específica_
 - [x] 20-4: _Manipulando tabelas_
-- [x] 20-5: _Projeto - All For One_
+- [x] 20-5: _[Projeto - All For One](https://github.com/biancaoura/project-all-for-one)_
 
 ### [Bloco 21: Funções SQL, JOINs e Normalização](https://github.com/biancaoura/trybe-exercicios/tree/main/back-end/bloco-21-funcoes-sql-joins-e-normalizacao)
 
 - [x] 21-1: _Funções mais usadas no SQL_
 - [x] 21-2: _Descomplicando JOINs_
 - [x] 21-3: _Transformando ideias em um modelo de banco de dados_
-- [ ] 21-4: _Aula ao vivo + Projeto - One For All_
+- [x] 21-4: _[Projeto - One For All](https://github.com/biancaoura/project-one-for-all)_
 
 ### Bloco 22: Introdução ao desenvolvimento Web com Node.js
 
