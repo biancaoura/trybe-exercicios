@@ -1,5 +1,4 @@
-const weightKg = 90;
-const heightCm = 200;
+const readline = require('readline-sync');
 
 const calculateBMI = (weight, height) => {
   const heightMts = height / 100;
@@ -7,7 +6,11 @@ const calculateBMI = (weight, height) => {
 }
 
 const main = () => {
+  const weightKg = readline.questionFloat('What\'s your weight? (kg)');
+  const heightCm = readline.questionInt('What\'s your height? (cm) ');
+
   const bmi = calculateBMI(weightKg, heightCm);
+  
   console.log(`BMI: ${bmi}`);
 }
 
