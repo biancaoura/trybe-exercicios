@@ -44,17 +44,28 @@ const addNelsonToFamily = async () => {
   const file = await fs.readFile('./simpsons-family.json');
   const simpsonsInfo = JSON.parse(file);
 
-  const addNelson = [...simpsonsInfo, { id: 8, name: 'Nelson Muntz'}];
+  const addNelson = [...simpsonsInfo, { id: 8, name: 'Nelson Muntz' }];
 
   await fs.writeFile('./simpsons-family.json', JSON.stringify(addNelson));
-}
+};
+
+const replaceNelsonForMaggie = async () => {
+  const file = await fs.readFile('./simpsons-family.json');
+  const simpsonsInfo = JSON.parse(file);
+
+  const removeNelson = simpsonsInfo.filter(({ name }) => name !== 'Nelson Muntz');
+  const addMaggie = [...removeNelson, { id: 5, name: 'Maggie Simpson' }];
+
+  await fs.writeFile('./simpsons-family.json', JSON.stringify(addMaggie));
+};
 
 const main = async () => {
   // await readSimpsons(); 
   // console.log(await searchSimpsonNameById(2));
   // removeIds();
   // addSimpsonsFamily();
-  addNelsonToFamily();
+  // addNelsonToFamily();
+  replaceNelsonForMaggie();
 };
 
 main();
