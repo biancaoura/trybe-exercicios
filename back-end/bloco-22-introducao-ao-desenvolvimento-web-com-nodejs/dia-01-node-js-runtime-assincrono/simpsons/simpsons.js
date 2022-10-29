@@ -1,3 +1,5 @@
+const { readFile } = require('fs');
+
 const fs = require('fs').promises;
 
 const readSimpsons = async () => {
@@ -26,12 +28,23 @@ const removeIds = async () => {
   const modifiedArr = simpsonsInfo.filter(({ id }) => id !== '6' && id !== '10');
 
   await fs.writeFile('./simpsons.json', JSON.stringify(modifiedArr));
-}
+};
+
+const addSimpsonsFamily = async () => {
+  const file = await fs.readFile('./simpsons.json');
+  const simpsonsInfo = JSON.parse(file);
+
+  const familyIds = [1, 2, 3, 4];
+  const simpsonsFamily = simpsonsInfo.filter((simpson) => familyIds.includes(Number(simpson.id)));
+
+  await fs.writeFile('./simpsons-family.json', JSON.stringify(simpsonsFamily));
+};
 
 const main = async () => {
   // await readSimpsons(); 
   // console.log(await searchSimpsonNameById(2));
-  removeIds();
+  // removeIds();
+  addSimpsonsFamily();
 };
 
 main();
