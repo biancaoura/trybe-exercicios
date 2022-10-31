@@ -1,3 +1,4 @@
+const e = require('express');
 const express = require('express');
 const fs = require('fs').promises;
 const path = require('path');
@@ -80,6 +81,21 @@ app.delete('/movies/:id', async (req, res) => {
     await fs.writeFile(moviesPath, updatedMovies);
     
     res.status(204).end();
+  } catch (e) {
+    res.status(500).send({ message: e.message });
+  }
+});
+
+app.get('/movies/search', async (req, res) => {
+  try {
+    const { q } = req.query;
+    const movies = await readFile();
+
+    if (q) {
+      const filteredMovies = movies.filter((el) => el.movie);
+      return res.status(200).json(filteredMovies);
+    }
+    res.status(200).end();
   } catch (e) {
     res.status(500).send({ message: e.message });
   }
