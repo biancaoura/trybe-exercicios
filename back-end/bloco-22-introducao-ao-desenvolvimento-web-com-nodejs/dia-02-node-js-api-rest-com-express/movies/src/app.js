@@ -25,4 +25,13 @@ app.get('/movies/:id', async (req, res) => {
   }
 });
 
+app.get('/movies', async (req, res) => {
+  try {
+    const movies = await readFile();
+    res.status(200).json(movies);
+  } catch (e) {
+    res.status(500).send({ message: e.message });
+  }
+});
+
 module.exports = app;
