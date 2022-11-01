@@ -155,12 +155,12 @@
 - [x] 21-3: _Transformando ideias em um modelo de banco de dados_
 - [x] 21-4: _[Projeto - One For All](https://github.com/biancaoura/project-one-for-all)_
 
-### Bloco 22: Introdução ao desenvolvimento Web com Node.js
+### [Bloco 22: Introdução ao desenvolvimento Web com Node.js](https://github.com/biancaoura/trybe-exercicios/tree/main/back-end/bloco-22-introducao-ao-desenvolvimento-web-com-nodejs)
 
 - [x] 22-1: _Node.js - Runtime Assíncrono_
 - [x] 22-2: _Node.js - API REST com Express_
 - [x] 22-3: _Node.js - Testes de Integração_
-- [ ] 22-4: _Node.js - Express e Middlewares_
+- [x] 22-4: _Node.js - Express e Middlewares_
 - [ ] 22-5: _Node.js - Express e MySQL_
 - [ ] 22-6: _Atividades + Projeto - Talker Manager_
 
