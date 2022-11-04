@@ -14,7 +14,7 @@ router.post('/', async (req, res) => {
   }
 });
 
-router.get('/', async (req, res) => {
+router.get('/', async (_req, res) => {
   try {
     const [result] = await peopleDB.findAll();
     res.status(200).json(result);
@@ -36,6 +36,37 @@ router.get('/:id', async (req, res) => {
     }
   } catch (e) {
     console.log(e);
+    res.status(500).json({ message: e.sqlMessage });
+  }
+});
+
+router.put('/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
+    const person = req.body;
+    const [result] = await peopleDB.update(person, id);
+    
+    if (result.affectedRows > 0) {
+      res.status(200).json({ message: `Pessoa de id ${id} atualizada com sucesso` });
+    } else {
+      res.status(404).json({ message: 'Pessoa não encontrada' });
+    }
+  } catch (e) {
+    res.status(500).json({ message: e.sqlMessage });
+  }
+});
+
+router.delete('/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
+    const [result] = await peopleDB.remove(id);
+
+    if (result.affectedRows > 0) {
+      res.status(200).json({ message: `Pessoa de id ${id} excluída com sucesso` });
+    } else {
+      res.status(500).json({ message: 'Pessoa não encontrada' });
+    }
+  } catch (e) {
     res.status(500).json({ message: e.sqlMessage });
   }
 });
