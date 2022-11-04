@@ -14,4 +14,30 @@ router.post('/', async (req, res) => {
   }
 });
 
+router.get('/', async (req, res) => {
+  try {
+    const [result] = await peopleDB.findAll();
+    res.status(200).json(result);
+  } catch (e) {
+    console.log(e);
+    res.status(500).json({ message: e.sqlMessage });
+  }
+});
+
+router.get('/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
+    const [[result]] = await peopleDB.findById(id);
+
+    if (result) {
+      res.status(200).json(result);
+    } else {
+      res.status(404).json({ message: 'Pessoa não encontrada' });
+    }
+  } catch (e) {
+    console.log(e);
+    res.status(500).json({ message: e.sqlMessage });
+  }
+});
+
 module.exports = router;

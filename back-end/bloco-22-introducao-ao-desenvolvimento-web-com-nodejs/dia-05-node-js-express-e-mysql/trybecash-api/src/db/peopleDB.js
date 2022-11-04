@@ -7,4 +7,8 @@ const insert = (person) => connection.execute(
   [person.firstName, person.lastName, person.email, person.phone], // (esses aqui são os valores a serem inseridos)
 );
 
-module.exports = { insert };
+const findAll = () => connection.execute('SELECT * FROM people');
+
+const findById = (id) => connection.execute('SELECT * FROM people WHERE id = ?', [id]);
+
+module.exports = { insert, findAll, findById };
