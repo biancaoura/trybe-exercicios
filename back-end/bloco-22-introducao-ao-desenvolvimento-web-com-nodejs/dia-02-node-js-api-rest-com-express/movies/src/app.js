@@ -92,7 +92,7 @@ app.get('/movies/search', async (req, res) => {
     const movies = await readFile();
 
     if (q) {
-      const filteredMovies = movies.filter((el) => el.movie);
+      const filteredMovies = movies.filter((el) => el.movie.includes(q));
       return res.status(200).json(filteredMovies);
     }
     res.status(200).end();
