@@ -164,9 +164,9 @@
 - [x] 22-5: _Node.js - Express e MySQL_
 - [x] 22-6: _[Atividades + Projeto - Talker Manager](https://github.com/biancaoura/project-talker-manager)_
 
-### Bloco 23: Arquitetura de Software: Model, Service e Controller
+### [Bloco 23: Arquitetura de Software: Model, Service e Controller](https://github.com/biancaoura/trybe-exercicios/tree/main/back-end/bloco-23-arquitetura-de-software-model-service-e-controller)
 
-- [x] 23-1: _Arquitetura de Software - Camada de Model_
+- [x] 23-1: _Arquitetura de Software - Camada Model_
 - [ ] 23-2: _Arquitetura de Software - Camada Service_
 - [ ] 23-3: _Arquitetura de Software - Camada Controller_
 - [ ] 23-4: _Projeto - Store Manager_
