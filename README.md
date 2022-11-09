@@ -166,7 +166,7 @@
 
 ### Bloco 23: Arquitetura de Software: Model, Service e Controller
 
-- [ ] 23-1: _Arquitetura de Software - Camada de Model_
+- [x] 23-1: _Arquitetura de Software - Camada de Model_
 - [ ] 23-2: _Arquitetura de Software - Camada Service_
 - [ ] 23-3: _Arquitetura de Software - Camada Controller_
 - [ ] 23-4: _Projeto - Store Manager_
