@@ -162,14 +162,14 @@
 - [x] 22-3: _Node.js - Testes de Integração_
 - [x] 22-4: _Node.js - Express e Middlewares_
 - [x] 22-5: _Node.js - Express e MySQL_
-- [x] 22-6: _[Atividades + Projeto - Talker Manager](https://github.com/biancaoura/project-talker-manager)_
+- [x] 22-6: _[Projeto - Talker Manager](https://github.com/biancaoura/project-talker-manager)_
 
 ### [Bloco 23: Arquitetura de Software: Model, Service e Controller](https://github.com/biancaoura/trybe-exercicios/tree/main/back-end/bloco-23-arquitetura-de-software-model-service-e-controller)
 
 - [x] 23-1: _Arquitetura de Software - Camada Model_
-- [ ] 23-2: _Arquitetura de Software - Camada Service_
-- [ ] 23-3: _Arquitetura de Software - Camada Controller_
-- [ ] 23-4: _Projeto - Store Manager_
+- [x] 23-2: _Arquitetura de Software - Camada Service_
+- [x] 23-3: _Arquitetura de Software - Camada Controller_
+- [x] 23-4: _[Projeto - Store Manager](https://github.com/biancaoura/project-store-manager)_
 
 ### Bloco 24: Node.js: ORM e Autenticação
 
