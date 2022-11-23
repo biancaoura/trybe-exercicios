@@ -171,10 +171,10 @@
 - [x] 23-3: _Arquitetura de Software - Camada Controller_
 - [x] 23-4: _[Projeto - Store Manager](https://github.com/biancaoura/project-store-manager)_
 
-### Bloco 24: Node.js: ORM e Autenticação
+### [Bloco 24: Node.js: ORM e Autenticação](https://github.com/biancaoura/trybe-exercicios/tree/main/back-end/bloco-24-nodejs-orm-e-autenticacao)
 
 - [x] 24-1: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 24-2: _ORM - Associations 1:1 e 1:N_
+- [x] 24-2: _ORM - Associations 1:1 e 1:N_
 - [ ] 24-3: _ORM - Associations N:N e Transactions_
 - [ ] 24-4: _JWT - (JSON Web Token)_
 - [ ] 24-5: _Projeto - API de Blogs_
