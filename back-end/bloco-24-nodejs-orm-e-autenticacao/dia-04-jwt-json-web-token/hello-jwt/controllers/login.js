@@ -14,12 +14,23 @@ const validateBody = (body) =>
 
 module.exports = async (req, res, next) => {
   const { error } = validateBody(req.body);
+  const { username, password } = req.body;
 
   if (error) return next(error);
 
+  if (username === 'admin' &&  password !== 's3nh4S3gur4???') {
+    const err = new Error('Invalid username or password');
+
+    err.statusCode = 401;
+
+    return next(err);
+  }
+
+  const admin = username === 'admin' && password === 's3nh4S3gur4???';
+
   const payload = {
     username: req.body.username,
-    admin: false,
+    admin,
   };
   const token = jwt.sign(payload, JWT_SECRET, { expiresIn: '1h' });
 
