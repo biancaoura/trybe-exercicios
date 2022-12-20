@@ -179,11 +179,9 @@
 - [x] 24-4: _JWT - (JSON Web Token)_
 - [ ] 24-5: _Projeto - API de Blogs_
 
-### Bloco 25: Deployment
+### Bloco 25: Masterclass: Implantação de Aplicações na Nuvem
 
-- [ ] 25-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 25-2: _Deploy Docker & Heroku_
-- [ ] 25-3: _Projeto - Stranger Things_
+- [x] 25-1: _Infraestrutura: Deploy com Railway_
 
 ### Bloco 26: Introdução ao TypeScript
 
