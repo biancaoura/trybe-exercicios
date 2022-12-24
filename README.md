@@ -185,7 +185,7 @@
 
 ### Bloco 26: Introdução ao TypeScript
 
-- [ ] 26-1: _Introdução ao TypeScript_
+- [x] 26-1: _Introdução ao TypeScript_
 - [ ] 26-2: _Tipagem Estática e Generics_
 - [ ] 26-3: _Express com TypeScript_
 - [ ] 26-4: _Projeto - Trybe Smith_
