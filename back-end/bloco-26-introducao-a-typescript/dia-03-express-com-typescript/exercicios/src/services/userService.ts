@@ -26,4 +26,8 @@ export default class UserService {
   public async update(id: number, user: IUser): Promise<void> {
     await this.userModel.update(id, user);
   }
+
+  public async delete(id: number): Promise<void> {
+    await this.userModel.delete(id);
+  }
 }

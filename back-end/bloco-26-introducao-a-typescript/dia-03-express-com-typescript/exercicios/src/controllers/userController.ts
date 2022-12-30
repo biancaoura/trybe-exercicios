@@ -38,6 +38,13 @@ export default class UserController {
     await this.userService.update(id, user);
 
     res.status(StatusCodes.OK).end();
+  }
 
+  public delete = async (req: Request, res: Response) => {
+    const id = Number(req.params.id);
+    
+    await this.userService.delete(id);
+
+    res.status(StatusCodes.NO_CONTENT).end();
   }
 }

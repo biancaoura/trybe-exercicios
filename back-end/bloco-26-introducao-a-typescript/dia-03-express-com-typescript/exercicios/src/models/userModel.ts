@@ -1,5 +1,4 @@
 import { Pool, ResultSetHeader, RowDataPacket } from 'mysql2/promise';
-// import connection from './connection';
 import IUser from '../interfaces/IUser';
 
 export default class UserModel {
@@ -39,6 +38,13 @@ export default class UserModel {
     await this.connection.execute(
       'UPDATE Users SET name=?, email=?, password=? WHERE id=?',
       [name, email, password, id]
+    );
+  }
+
+  public async delete(id: number) {
+    await this.connection.execute(
+      'DELETE FROM Users WHERE id=?',
+      [id]
     );
   }
 }
