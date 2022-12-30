@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
 import { StatusCodes } from 'http-status-codes';
+import IUser from '../interfaces/IUser';
 import UserService from '../services/userService';
 
 export default class UserController {
@@ -28,5 +29,15 @@ export default class UserController {
     const newUser = await this.userService.create(user);
 
     res.status(StatusCodes.CREATED).json(newUser);
+  }
+
+  public update = async (req: Request, res: Response) => {
+    const id = Number(req.params.id);
+    const user = req.body as IUser;
+    
+    await this.userService.update(id, user);
+
+    res.status(StatusCodes.OK).end();
+
   }
 }

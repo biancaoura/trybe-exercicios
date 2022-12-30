@@ -33,4 +33,12 @@ export default class UserModel {
     const [{ insertId }] = result;
     return { id: insertId, ...user };
   }
+
+  public async update(id: number, user: IUser) {
+    const { name, email, password } = user;
+    await this.connection.execute(
+      'UPDATE Users SET name=?, email=?, password=? WHERE id=?',
+      [name, email, password, id]
+    );
+  }
 }
