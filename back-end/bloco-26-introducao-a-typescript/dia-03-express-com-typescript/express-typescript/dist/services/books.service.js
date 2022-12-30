@@ -15,39 +15,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const connection_1 = __importDefault(require("../models/connection"));
 const book_model_1 = __importDefault(require("../models/book.model"));
 const restify_errors_1 = require("restify-errors");
-const properties = ['title', 'price', 'author', 'isbn'];
 class BookService {
     constructor() {
         this.model = new book_model_1.default(connection_1.default);
-    }
-    // validações
-    static validateProperties(book) {
-        for (let i = 0; i < properties.length; i += 1) {
-            if (!Object.prototype.hasOwnProperty.call(book, properties[i])) {
-                return [false, properties[i]];
-            }
-        }
-        return [true, null];
-    }
-    static validateValues(book) {
-        const entries = Object.entries(book);
-        for (let i = 0; i < entries.length; i += 1) {
-            const [property, value] = entries[i];
-            if (!value) {
-                return [false, property];
-            }
-        }
-        return [true, null];
-    }
-    static validateBook(book) {
-        let [valid, property] = BookService.validateProperties(book);
-        if (!valid) {
-            return `The ${property} field is obligatory`;
-        }
-        [valid, property] = BookService.validateValues(book);
-        if (!valid) {
-            return `The ${property} field can't be null or empty`;
-        }
     }
     getAll() {
         return __awaiter(this, void 0, void 0, function* () {
@@ -62,18 +32,10 @@ class BookService {
         });
     }
     create(book) {
-        const isBookValid = BookService.validateBook(book);
-        if (typeof isBookValid === 'string') {
-            throw new restify_errors_1.BadRequestError(isBookValid);
-        }
         return this.model.create(book);
     }
     update(id, book) {
         return __awaiter(this, void 0, void 0, function* () {
-            const isBookValid = BookService.validateBook(book);
-            if (typeof isBookValid === 'string') {
-                throw new restify_errors_1.BadRequestError(isBookValid);
-            }
             const bookFound = yield this.model.getById(id);
             if (!bookFound) {
                 throw new restify_errors_1.NotFoundError('Book not found');
@@ -88,6 +50,15 @@ class BookService {
                 throw new restify_errors_1.NotFoundError('Book not found');
             }
             return this.model.remove(id);
+        });
+    }
+    patch(id, book) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const bookFound = yield this.model.getById(id);
+            if (!bookFound) {
+                throw new restify_errors_1.NotFoundError('Book not found');
+            }
+            return this.model.patch(id, book);
         });
     }
 }

@@ -47,5 +47,13 @@ class BookModel {
             yield this.connection.execute('DELETE FROM books WHERE id=?', [id]);
         });
     }
+    patch(id, book) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const query = 'UPDATE books SET';
+            const queryUpdate = Object.keys(book).map((field) => `${field}=?`).join(', ');
+            const queryValues = Object.values(book);
+            yield this.connection.execute(`${query} ${queryUpdate} WHERE id=?`, [...queryValues, id]);
+        });
+    }
 }
 exports.default = BookModel;

@@ -11,7 +11,7 @@ export default class BookController {
   }
 
   public getById = async (req: Request, res: Response) => {
-    const id = parseInt(req.params.id, 10);
+    const id = Number(req.params.id);
     const book = await this.bookService.getById(id);
 
     if (!book) {
@@ -41,6 +41,14 @@ export default class BookController {
   public remove = async (req: Request, res: Response) => {
     const id = Number(req.params.id);
     await this.bookService.remove(id);
+
+    res.status(statusCodes.NO_CONTENT).end();
+  }
+
+  public patch = async (req: Request, res: Response) => {
+    const id = Number(req.params.id);
+    const book = req.body;
+    await this.bookService.patch(id, book);
 
     res.status(statusCodes.NO_CONTENT).end();
   }

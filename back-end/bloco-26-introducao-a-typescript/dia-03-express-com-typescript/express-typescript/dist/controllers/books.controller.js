@@ -22,7 +22,7 @@ class BookController {
             res.status(statusCodes_1.default.OK).json(books);
         });
         this.getById = (req, res) => __awaiter(this, void 0, void 0, function* () {
-            const id = parseInt(req.params.id, 10);
+            const id = Number(req.params.id);
             const book = yield this.bookService.getById(id);
             if (!book) {
                 return res.status(statusCodes_1.default.NOT_FOUND)
@@ -44,6 +44,12 @@ class BookController {
         this.remove = (req, res) => __awaiter(this, void 0, void 0, function* () {
             const id = Number(req.params.id);
             yield this.bookService.remove(id);
+            res.status(statusCodes_1.default.NO_CONTENT).end();
+        });
+        this.patch = (req, res) => __awaiter(this, void 0, void 0, function* () {
+            const id = Number(req.params.id);
+            const book = req.body;
+            yield this.bookService.patch(id, book);
             res.status(statusCodes_1.default.NO_CONTENT).end();
         });
     }

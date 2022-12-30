@@ -52,4 +52,15 @@ export default class BookModel {
       [id]
     );
   }
+
+  public async patch(id: Required<Book>['id'], book: Partial<Book>) {
+    const query = 'UPDATE books SET';
+    const queryUpdate = Object.keys(book).map((field) => `${field}=?`).join(', ');
+    const queryValues = Object.values(book);
+
+    await this.connection.execute(
+      `${query} ${queryUpdate} WHERE id=?`,
+      [...queryValues, id]
+    );
+  }
 }
