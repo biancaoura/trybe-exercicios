@@ -177,7 +177,7 @@
 - [x] 24-2: _ORM - Associations 1:1 e 1:N_
 - [x] 24-3: _ORM - Associations N:N e Transactions_
 - [x] 24-4: _JWT - (JSON Web Token)_
-- [ ] 24-5: _Projeto - API de Blogs_
+- [x] 24-5: _[Projeto - API de Blogs](https://github.com/biancaoura/project-blogs-api)_
 
 ### Bloco 25: Masterclass: Implantação de Aplicações na Nuvem
 
@@ -186,9 +186,9 @@
 ### Bloco 26: Introdução ao TypeScript
 
 - [x] 26-1: _Introdução ao TypeScript_
-- [ ] 26-2: _Tipagem Estática e Generics_
-- [ ] 26-3: _Express com TypeScript_
-- [ ] 26-4: _Projeto - Trybe Smith_
+- [x] 26-2: _Tipagem Estática e Generics_
+- [x] 26-3: _Express com TypeScript_
+- [ ] 26-4: _Projeto - Trybesmith_
 
 ### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
 
