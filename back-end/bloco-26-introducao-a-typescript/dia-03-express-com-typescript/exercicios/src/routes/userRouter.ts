@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import UserController from '../controllers/userController';
+import userMiddleware from '../middlewares/userMiddleware';
 
 const userController = new UserController();
 const router = Router();
@@ -7,9 +8,9 @@ const router = Router();
 router.get('/', userController.getAll);
 router.get('/:id', userController.getById);
 
-router.post('/', userController.create);
+router.post('/', userMiddleware, userController.create);
 
-router.put('/:id', userController.update);
+router.put('/:id', userMiddleware, userController.update);
 
 router.delete('/:id', userController.delete);
 
