@@ -26,6 +26,12 @@ export default class UserController {
   public create = async (req: Request, res: Response) => {
     const user = req.body;
 
+    const userExists = await this.userService.getByEmail(user.email);
+
+    if (userExists) {
+      return res.status(StatusCodes.CONFLICT).json({ message: 'User already exists'});
+    }
+
     const newUser = await this.userService.create(user);
 
     res.status(StatusCodes.CREATED).json(newUser);
@@ -42,7 +48,7 @@ export default class UserController {
 
   public delete = async (req: Request, res: Response) => {
     const id = Number(req.params.id);
-    
+
     await this.userService.delete(id);
 
     res.status(StatusCodes.NO_CONTENT).end();

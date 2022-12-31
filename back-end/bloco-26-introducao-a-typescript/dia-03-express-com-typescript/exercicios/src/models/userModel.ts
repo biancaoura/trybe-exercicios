@@ -23,6 +23,14 @@ export default class UserModel {
     return rows[0];
   }
 
+  public async getByEmail(email: string): Promise<IUser> {
+    const [rows] = await this.connection.execute<(IUser & RowDataPacket)[]>(
+      'SELECT * FROM Users WHERE email=?',
+      [email]
+    );
+    return rows[0];
+  }
+
   public async create(user: IUser): Promise<IUser> {
     const { name, email, password } = user;
     const result = await this.connection.execute<ResultSetHeader>(
