@@ -183,16 +183,16 @@
 
 - [x] 25-1: _Infraestrutura: Deploy com Railway_
 
-### Bloco 26: Introdução ao TypeScript
+### [Bloco 26: Introdução ao TypeScript](https://github.com/biancaoura/trybe-exercicios/tree/main/back-end/bloco-26-introducao-a-typescript)
 
 - [x] 26-1: _Introdução ao TypeScript_
 - [x] 26-2: _Tipagem Estática e Generics_
 - [x] 26-3: _Express com TypeScript_
-- [ ] 26-4: _Projeto - Trybesmith_
+- [x] 26-4: _[Projeto - Trybesmith](https://github.com/biancaoura/project-trybesmith)_
 
 ### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
 
-- [ ] 27-1: _Introdução à Orientação a Objetos_
+- [x] 27-1: _Introdução à Orientação a Objetos_
 - [ ] 27-2: _Herança e Interfaces_
 - [ ] 27-3: _Polimorfismo_
 - [ ] 27-4: _SOLID - Introdução e Princípios S, O e D_
