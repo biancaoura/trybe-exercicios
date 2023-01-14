@@ -194,7 +194,7 @@
 
 - [x] 27-1: _Introdução à Orientação a Objetos_
 - [x] 27-2: _Herança e Composição_
-- [ ] 27-3: _Polimorfismo_
+- [x] 27-3: _Polimorfismo_
 - [ ] 27-4: _SOLID - Introdução e Princípios S, O e D_
 - [ ] 27-5: _SOLID - Princípios L e I_
 - [ ] 27-6: _Projeto - Trybers e Dragons_
