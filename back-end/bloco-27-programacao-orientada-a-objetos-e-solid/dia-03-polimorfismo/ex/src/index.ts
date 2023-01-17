@@ -16,7 +16,7 @@ const quadraTenis = new QuadraTenis();
 
 clube.adicionarQuadra(quadraTenis);
 
-const quadraTen = clube.buscarQuadra<QuadraTenis>(0);
+const quadraTen = clube.buscarQuadra<QuadraTenis>(1);
 console.log(quadraTen);
 const reservaTen = quadraTen.reservar(new Date('2023/05/23'));
 console.log(reservaTen);
