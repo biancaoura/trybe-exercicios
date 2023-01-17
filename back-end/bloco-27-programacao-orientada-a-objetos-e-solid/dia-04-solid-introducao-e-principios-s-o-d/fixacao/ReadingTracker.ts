@@ -4,45 +4,53 @@ type Book = {
   genre: string;
 }
 
-class ReadingTracker {
-  private readingGoal: number;
-  private booksRead: number;
+const progressNotification = (notification: string): void => {
+  console.log(notification);
+}
+
+class Wishlist {
   private wishlist: Book[];
 
-  constructor(readingGoal: number) {
-    this.readingGoal = readingGoal;
-    this.booksRead = 0;
+  constructor(book: Book) {
     this.wishlist = [];
-  }
-
-  trackReadings(readsCount: number): void {
-    this.booksRead += readsCount;
-    if (this.booksRead >= this.readingGoal) {
-      this.progressNotification(
-        'Congratulations! You\'ve reached your reading goal!',
-      );
-      return;
-    }
-    this.progressNotification(
-      'There are still some books to go!',
-    );
-  }
-
-  addToWishlist(book: Book): void {
     this.wishlist.push(book);
+  }
+
+  addToWishlist(newBook: Book): void {
+    this.wishlist.push(newBook);
   }
 
   showWishlist(): void {
     console.log(this.wishlist);
   }
+}
 
-  progressNotification(message: string): void {
-    console.log(message);
+class ReadingTracker {
+  private readingGoal: number;
+  private booksRead: number;
+
+  constructor(readingGoal: number) {
+    this.readingGoal = readingGoal;
+    this.booksRead = 0;
+  }
+
+  trackReadings(readsCount: number): void {
+    this.booksRead += readsCount;
+    if (this.booksRead >= this.readingGoal) {
+      progressNotification(
+        'Congratulations! You\'ve reached your reading goal!',
+      );
+      return;
+    }
+      progressNotification(
+      'There are still some books to go!',
+    );
   }
 }
 
 const readTracker = new ReadingTracker(20);
-readTracker.addToWishlist({ book: 'The Road', author: 'Cormac McCarthy', genre: 'Dystopia' });
-readTracker.showWishlist();
+const wishlist = new Wishlist({ book: 'The Road', author: 'Cormac McCarthy', genre: 'Dystopia' });
+wishlist.addToWishlist({ book: 'The Alchemist', author: 'Paulo Coelho', genre: 'Fantasy'})
+wishlist.showWishlist();
 readTracker.trackReadings(12);
 readTracker.trackReadings(9);
