@@ -190,12 +190,12 @@
 - [x] 26-3: _Express com TypeScript_
 - [x] 26-4: _[Projeto - Trybesmith](https://github.com/biancaoura/project-trybesmith)_
 
-### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
+### [Bloco 27: Programação Orientada a Objetos (POO) e SOLID](https://github.com/biancaoura/trybe-exercicios/tree/main/back-end/bloco-27-programacao-orientada-a-objetos-e-solid)
 
 - [x] 27-1: _Introdução à Orientação a Objetos_
 - [x] 27-2: _Herança e Composição_
 - [x] 27-3: _Polimorfismo_
-- [ ] 27-4: _SOLID - Introdução e Princípios S, O e D_
+- [x] 27-4: _SOLID - Introdução e Princípios S, O e D_
 - [ ] 27-5: _SOLID - Princípios L e I_
 - [ ] 27-6: _Projeto - Trybers e Dragons_
 
