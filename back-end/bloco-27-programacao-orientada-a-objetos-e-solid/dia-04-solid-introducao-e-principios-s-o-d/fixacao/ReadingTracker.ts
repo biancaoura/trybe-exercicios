@@ -33,8 +33,8 @@ class ReadingTracker {
   private booksRead: number;
   notificator: Notificator;
 
-  constructor(readingGoal: number, email: string) {
-    this.notificator = new EmailNotification(email);
+  constructor(readingGoal: number, notificator: Notificator = new EmailNotification('email')) {
+    this.notificator = notificator;
     this.readingGoal = readingGoal;
     this.booksRead = 0;
   }
@@ -53,9 +53,9 @@ class ReadingTracker {
   }
 }
 
-// const readTracker = new ReadingTracker(20);
-// const wishlist = new Wishlist({ book: 'The Road', author: 'Cormac McCarthy', genre: 'Dystopia' });
-// wishlist.addToWishlist({ book: 'The Alchemist', author: 'Paulo Coelho', genre: 'Fantasy'})
-// wishlist.showWishlist();
-// readTracker.trackReadings(12);
-// readTracker.trackReadings(9);
+const readTracker = new ReadingTracker(20, new EmailNotification('email@email.com'));
+const wishlist = new Wishlist({ book: 'The Road', author: 'Cormac McCarthy', genre: 'Dystopia' });
+wishlist.addToWishlist({ book: 'The Alchemist', author: 'Paulo Coelho', genre: 'Fantasy'})
+wishlist.showWishlist();
+readTracker.trackReadings(12);
+readTracker.trackReadings(9);
