@@ -1,4 +1,4 @@
-import IVehicle from './IVehicle';
+import { IVehicle } from './interfaces';
 
 export default class FuturisticCar implements IVehicle {
   drive(): void { console.log('Drive a futuristic car'); }
