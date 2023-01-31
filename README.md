@@ -197,11 +197,11 @@
 - [x] 27-3: _Polimorfismo_
 - [x] 27-4: _SOLID - Introdução e Princípios S, O e D_
 - [x] 27-5: _SOLID - Princípios L e I_
-- [ ] 27-6: _Projeto - Trybers e Dragons_
+- [x] 27-6: _[Projeto - Trybers e Dragons](https://github.com/biancaoura/project-trybers-and-dragons)_
 
 ### Bloco 28: TFC - Trybe Futebol Clube
 
-- [ ] 28-1: _Projeto - TFC - Trybe Futebol Clube_
+- [x] 28-1: _[Projeto - TFC - Trybe Futebol Clube](https://github.com/biancaoura/project-tfc)_
 
 ### Bloco 29: Introdução ao MongoDB
 
