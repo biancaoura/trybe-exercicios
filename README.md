@@ -203,7 +203,7 @@
 
 - [x] 28-1: _[Projeto - TFC - Trybe Futebol Clube](https://github.com/biancaoura/project-tfc)_
 
-### Bloco 29: Introdução ao MongoDB
+### [Bloco 29: Introdução ao MongoDB](https://github.com/biancaoura/trybe-exercicios/tree/main/back-end/bloco-29-introducao-ao-mongodb)
 
 - [x] 29-1: _MongoDB - Introdução_
 - [x] 29-2: _Filter Operators_
