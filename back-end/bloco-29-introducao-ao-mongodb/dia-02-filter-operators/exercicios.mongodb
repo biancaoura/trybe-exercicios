@@ -1,0 +1,55 @@
+use('exercicios');
+
+db.superheroes.find();
+
+db.superheroes.find({ 'aspects.height': { $lt: 180 } });
+
+db.superheroes.countDocuments({ 'aspects.height': { $lt: 180 } });
+
+db.superheroes.countDocuments({ 'aspects.height': { $lte: 180 } });
+
+db.superheroes.findOne({ 'aspects.height': { $gte: 200 } });
+
+db.superheroes.countDocuments({ 'aspects.height': { $gte: 200 } });
+
+db.superheroes.find({ 'aspects.eyeColor': 'green' });
+
+db.superheroes.countDocuments({ 'aspects.eyeColor': 'blue' });
+
+db.superheroes.find({ 'aspects.hairColor': { $in: ['black', 'no hair'] } });
+
+db.superheroes.countDocuments({ 'aspects.hairColor': { $in: ['black', 'no hair'] } });
+
+db.superheroes.countDocuments({ 'aspects.hairColor': { $nin: ['black', 'no hair'] } });
+
+db.superheroes.countDocuments({ 'aspects.height': { $not: { $gt: 180 } } });
+
+db.superheroes.find({
+  $nor: [
+    { race: 'Human' },
+    { 'aspects.height': { $gt: 180 } }
+  ]
+});
+
+db.superheroes.find({
+  $and: [
+    { 'aspects.height': { $in: [180, 200] } },
+    { publisher: 'Marvel Comics' }
+  ]
+});
+
+db.superheroes.find({
+  $and: [
+    { 'aspects.weight': { $gte: 80, $lte: 100 } },
+    { race: { $in: ['Human', 'Mutant'] }},
+    { publisher: { $ne: 'DC Comics' } }
+  ]
+});
+
+db.superheroes.countDocuments({ race: { $exists: 0 } });
+
+db.superheroes.countDocuments({ 'aspects.hairColor': { $exists: 1 } });
+
+db.superheroes.deleteOne({ publisher: 'Sony Pictures' });
+
+db.superheroes.deleteMany({ publisher: 'George Lucas' });

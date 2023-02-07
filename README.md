@@ -207,9 +207,9 @@
 
 - [x] 29-1: _MongoDB - Introdução_
 - [x] 29-2: _Filter Operators_
-- [ ] 29-3: _Operadores de consulta_
-- [ ] 29-4: _Updates Simples_
-- [ ] 29-5: _Updates Complexos - Arrays_
+- [x] 29-3: _Operadores de consulta_
+- [x] 29-4: _Updates Simples_
+- [x] 29-5: _Updates Complexos - Arrays_
 - [ ] 29-6: _Projeto - Commerce_
 
 ### Bloco 30: MongoDB com Node.js e POO
