@@ -210,7 +210,7 @@
 - [x] 29-3: _Operadores de consulta_
 - [x] 29-4: _Updates Simples_
 - [x] 29-5: _Updates Complexos - Arrays_
-- [ ] 29-6: _Projeto - Commerce_
+- [x] 29-6: _[Projeto - Commerce](https://github.com/biancaoura/project-commerce)_
 
 ### Bloco 30: APIs OO e NoSQL
 
