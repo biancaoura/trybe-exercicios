@@ -212,10 +212,10 @@
 - [x] 29-5: _Updates Complexos - Arrays_
 - [ ] 29-6: _Projeto - Commerce_
 
-### Bloco 30: MongoDB com Node.js e POO
+### Bloco 30: APIs OO e NoSQL
 
-- [ ] 30-1: _Mongoose e arquitetura MSC (Camada Model)_
-- [ ] 30-2: _Mongoose e arquitetura MSC (Camada Service e Controller)_
+- [x] 30-1: _APIs Orientadas a Objetos e NoSQL: POO e ODMs_
+- [ ] 30-2: _APIs Orientadas a Objetos e NoSQL: Herança e Abstração_
 - [ ] 30-3: _Projeto - Car Shop_
 
 ### Bloco 31: Projeto - App de Delivery
