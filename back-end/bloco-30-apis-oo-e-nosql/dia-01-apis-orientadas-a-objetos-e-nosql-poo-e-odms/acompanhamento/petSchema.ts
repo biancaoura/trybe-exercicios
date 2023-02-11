@@ -1,6 +1,14 @@
 import { Schema, model } from 'mongoose';
 
-const petSchema = new Schema({
+interface IPet {
+  name: string;
+  species: string;
+  age?: number;
+  weight: number;
+  dailyMealsNumber: number;
+}
+
+const petSchema = new Schema<IPet>({
   name: { type: String, required: true },
   species: {  type: String, required: true },
   age: { type: Number, required: false },
@@ -8,4 +16,4 @@ const petSchema = new Schema({
   dailyMealsNumber: { type: Number, required: true, min: 2, max: 5 },
 });
 
-const Pet = model('Pet', petSchema);
+const Pet = model<IPet>('Pet', petSchema);
