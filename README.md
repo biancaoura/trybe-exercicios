@@ -212,7 +212,7 @@
 - [x] 29-5: _Updates Complexos - Arrays_
 - [x] 29-6: _[Projeto - Commerce](https://github.com/biancaoura/project-commerce)_
 
-### Bloco 30: APIs OO e NoSQL
+### [Bloco 30: APIs OO e NoSQL](https://github.com/biancaoura/trybe-exercicios/tree/main/back-end/bloco-30-apis-oo-e-nosql)
 
 - [x] 30-1: _APIs Orientadas a Objetos e NoSQL: POO e ODMs_
 - [x] 30-2: _APIs Orientadas a Objetos e NoSQL: Herança e Abstração_
@@ -222,51 +222,47 @@
 
 - [ ] 31-1: _Projeto - App de Delivery_
 
-### Bloco 32: MasterClass - VPS, CI/CD
-
-- [ ] 32-1: _VPS_
-- [ ] 32-2: _Dia 2_
 
 # Ciência da Computação
 
-### Bloco 33: Introdução à Python
+### Bloco 32: Introdução à Python
 
-- [ ] 30-1: _Aprendendo Python_
-- [ ] 30-2: _Entrada e Saída de Dados_
-- [ ] 30-3: _Testes_
-- [ ] 30-4: _Projetos - Job Insights_
+- [ ] 32-1: _Aprendendo Python_
+- [ ] 32-2: _Entrada e Saída de Dados_
+- [ ] 32-3: _Testes_
+- [ ] 32-4: _Projetos - Job Insights_
 
-### Bloco 34: Padrões de Projeto
+### Bloco 33: Padrões de Projeto
 
-- [ ] 34-1: _P.O.O em Python_
-- [ ] 34-2: _Padrões - Iterator, Adapter, Strategy_
-- [ ] 34-3: _Decorator, Observer, Factory_
-- [ ] 34-4: _Relatórios de Estoque_
+- [ ] 33-1: _P.O.O em Python_
+- [ ] 33-2: _Padrões - Iterator, Adapter, Strategy_
+- [ ] 33-3: _Padrões - Decorator, Observer, Factory_
+- [ ] 33-4: _Projeto - Relatórios de Estoque_
 
-### Bloco 35: Redes e Raspagem de Dados
+### Bloco 34: Raspagem de Dados
 
-- [ ] 35-1: _Arquitetura de redes_
-- [ ] 35-2: _Redes de computadores, ferramentas e segurança_
-- [ ] 35-3: _Raspagem de Dados_
-- [ ] 35-4: _Projeto - Tech news_
+- [ ] 34-1: _Raspagem de Dados_
+- [ ] 34-2: _Outras Ferramentas de Raspagem de Dados_
+- [ ] 34-3: _Dia de Atividades - Crawlers + POO_
+- [ ] 34-4: _Projeto - Tech News_
 
-### Bloco 36: Algoritmos
+### Bloco 35: Algoritmos
 
 - [ ] 35-1: _Complexidade de Algoritmos_
 - [ ] 35-2: _Recursividade e Estratégias para solução de problemas_
 - [ ] 35-3: _Algoritmos de ordenação e busca_
-- [ ] 36-4: _Projeto - Algoritmos_
+- [ ] 35-4: _Projeto - Algoritmos_
 
-### Bloco 37: Estrutura de Dados I: Arrays, Hashmaps e Sets
+### Bloco 36: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas
 
-- [ ] 37-1: _Arquitetura de Computadores_
-- [ ] 37-1: _Arrays_
+- [ ] 36-1: _Arquitetura de Computadores_
+- [ ] 36-1: _Arrays_
+- [ ] 36-1: _Nós e Listas Encadeadas_
+- [ ] 36-1: _Pilhas e Filas_
+- [ ] 36-1: _Projeto - TING - Trybe Is Not Google_
+
+### Bloco 37: Estrutura de Dados II: Hashmaps e Sets
+
 - [ ] 37-1: _Hashmap e Dict_
 - [ ] 37-1: _Set_
 - [ ] 37-1: _Projeto - Restaurant Orders_
-
-### Bloco 38: Estrutura de Dados II: Listas, Filas e Pilhas
-
-- [ ] 38-1: _Nó e Listas Encadeadas_
-- [ ] 38-1: _Pilhas e Filas_
-- [ ] 38-1: _Projeto - TING - Trybe Is Not Google_
