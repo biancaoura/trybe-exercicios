@@ -215,7 +215,7 @@
 ### Bloco 30: APIs OO e NoSQL
 
 - [x] 30-1: _APIs Orientadas a Objetos e NoSQL: POO e ODMs_
-- [ ] 30-2: _APIs Orientadas a Objetos e NoSQL: Herança e Abstração_
+- [x] 30-2: _APIs Orientadas a Objetos e NoSQL: Herança e Abstração_
 - [ ] 30-3: _Projeto - Car Shop_
 
 ### Bloco 31: Projeto - App de Delivery
