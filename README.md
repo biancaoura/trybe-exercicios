@@ -220,14 +220,14 @@
 
 ### Bloco 31: Projeto - App de Delivery
 
-- [ ] 31-1: _Projeto - App de Delivery_
+- [x] 31-1: _[Projeto - App de Delivery](https://github.com/biancaoura/project-delivery-app)_
 
 
 # Ciência da Computação
 
 ### Bloco 32: Introdução à Python
 
-- [ ] 32-1: _Aprendendo Python_
+- [x] 32-1: _Aprendendo Python_
 - [ ] 32-2: _Entrada e Saída de Dados_
 - [ ] 32-3: _Testes_
 - [ ] 32-4: _Projetos - Job Insights_
