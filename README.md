@@ -228,7 +228,7 @@
 ### Bloco 32: Introdução à Python
 
 - [x] 32-1: _Aprendendo Python_
-- [ ] 32-2: _Entrada e Saída de Dados_
+- [x] 32-2: _Entrada e Saída de Dados_
 - [ ] 32-3: _Testes_
 - [ ] 32-4: _Projetos - Job Insights_
 
