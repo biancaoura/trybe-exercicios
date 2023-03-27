@@ -225,11 +225,11 @@
 
 # Ciência da Computação
 
-### Bloco 32: Introdução à Python
+### [Bloco 32: Introdução à Python](https://github.com/biancaoura/trybe-exercicios/tree/main/ciencia-da-computacao/bloco-32-introducao-a-python)
 
 - [x] 32-1: _Aprendendo Python_
 - [x] 32-2: _Entrada e Saída de Dados_
-- [ ] 32-3: _Testes_
+- [x] 32-3: _Testes_
 - [ ] 32-4: _Projetos - Job Insights_
 
 ### Bloco 33: Padrões de Projeto
