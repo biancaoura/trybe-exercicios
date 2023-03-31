@@ -1,14 +1,10 @@
 import json
-
-# no venv: python3 -m pip install pytest
-import pytest
+from unittest.mock import mock_open, patch
 from pokemon import retrieve_pokemons_by_type
-from io import StringIO
 
 
-@pytest.fixture
-def grass_type_pokemon():
-    return {
+def test_retrieve_pokemons_by_type():
+    grass_type_pokemon = {
         "national_number": "001",
         "evolution": None,
         "name": "Bulbasaur",
@@ -21,11 +17,7 @@ def grass_type_pokemon():
         "sp_def": 65,
         "speed": 45,
     }
-
-
-@pytest.fixture
-def water_type_pokemon():
-    return {
+    water_type_pokemon = {
         "national_number": "007",
         "evolution": None,
         "name": "Squirtle",
@@ -38,11 +30,8 @@ def water_type_pokemon():
         "sp_def": 64,
         "speed": 43,
     }
-
-
-def test_retrieve_pokemons_by_type(grass_type_pokemon, water_type_pokemon):
-    fake_file = StringIO(
-        json.dumps({"results": [grass_type_pokemon, water_type_pokemon]})
+    pokemon_json_content = json.dumps(
+        {"results": [grass_type_pokemon, water_type_pokemon]}
     )
-
-    assert grass_type_pokemon in retrieve_pokemons_by_type("Grass", fake_file)
+    with patch("builtins.open", mock_open(read_data=pokemon_json_content)):
+        assert retrieve_pokemons_by_type("Grass", "dummy") == [grass_type_pokemon]
