@@ -230,7 +230,7 @@
 - [x] 32-1: _Aprendendo Python_
 - [x] 32-2: _Entrada e Saída de Dados_
 - [x] 32-3: _Testes_
-- [ ] 32-4: _Projetos - Job Insights_
+- [x] 32-4: _[Projetos - Job Insights](https://github.com/biancaoura/project-job-insights)_
 
 ### Bloco 33: Padrões de Projeto
 
