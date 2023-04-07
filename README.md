@@ -232,10 +232,10 @@
 - [x] 32-3: _Testes_
 - [x] 32-4: _[Projetos - Job Insights](https://github.com/biancaoura/project-job-insights)_
 
-### Bloco 33: Padrões de Projeto
+### [Bloco 33: Padrões de Projeto](https://github.com/biancaoura/trybe-exercicios/tree/main/ciencia-da-computacao/bloco-33-padroes-de-projeto)
 
 - [x] 33-1: _P.O.O em Python_
-- [ ] 33-2: _Padrões - Iterator, Adapter, Strategy_
+- [x] 33-2: _Padrões - Iterator, Adapter, Strategy_
 - [ ] 33-3: _Padrões - Decorator, Observer, Factory_
 - [ ] 33-4: _Projeto - Relatórios de Estoque_
 
