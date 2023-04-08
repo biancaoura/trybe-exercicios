@@ -14,13 +14,21 @@ class Jedi:
         return self.level * 100
 
 
+class JediAdapter:
+    def __init__(self, jedi):
+        self.jedi = jedi
+
+    def attack(self):
+        return self.jedi.attack_with_saber()
+
+
 class StarWarsGame:
     def __init__(self, character):
         self.character = character
 
     def fight_enemy(self):
-        print(f"You caused {self.character.attack()} of damage to the enemy")
+        print(f"You caused {self.character.attack()} of damage in the enemy")
 
 
 StarWarsGame(Soldier(5)).fight_enemy()
-StarWarsGame(Jedi(20)).fight_enemy()
+StarWarsGame(JediAdapter(Jedi(20))).fight_enemy()
