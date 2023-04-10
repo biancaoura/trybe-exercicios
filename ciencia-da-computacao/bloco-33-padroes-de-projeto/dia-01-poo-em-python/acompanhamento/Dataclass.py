@@ -12,11 +12,11 @@ class Pessoa2:
         self.nome = nome
         self.sobrenome = sobrenome
 
-    def __str__(self):
-        return f"{self.nome} {self.sobrenome}"
+    def __repr__(self):
+        return f"Pessoa2(nome='{self.nome}', sobrenome='{self.sobrenome}')"
 
 
 flavio = Pessoa1("Flavio", "Silva")
 carlos = Pessoa2("Carlos", "Almeida")
 print(f"{flavio} e {carlos} possuem uma representação")
-# Pessoa1(nome='Flavio', sobrenome='Silva') e Carlos Almeida possuem uma representação
+# Pessoa1(nome='Flavio', sobrenome='Silva') e Pessoa2(nome='Carlos', sobrenome='Almeida') possuem uma representação

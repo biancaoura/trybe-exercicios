@@ -236,7 +236,7 @@
 
 - [x] 33-1: _P.O.O em Python_
 - [x] 33-2: _Padrões - Iterator, Adapter, Strategy_
-- [ ] 33-3: _Padrões - Decorator, Observer, Factory_
+- [x] 33-3: _Padrões - Decorator, Observer, Factory_
 - [ ] 33-4: _Projeto - Relatórios de Estoque_
 
 ### Bloco 34: Raspagem de Dados
