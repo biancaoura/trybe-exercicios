@@ -242,7 +242,7 @@
 ### Bloco 34: Raspagem de Dados
 
 - [x] 34-1: _Raspagem de Dados_
-- [ ] 34-2: _Outras Ferramentas de Raspagem de Dados_
+- [x] 34-2: _Outras Ferramentas de Raspagem de Dados_
 - [ ] 34-3: _Dia de Atividades - Crawlers + POO_
 - [ ] 34-4: _Projeto - Tech News_
 
