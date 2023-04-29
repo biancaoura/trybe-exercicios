@@ -237,14 +237,14 @@
 - [x] 33-1: _P.O.O em Python_
 - [x] 33-2: _Padrões - Iterator, Adapter, Strategy_
 - [x] 33-3: _Padrões - Decorator, Observer, Factory_
-- [ ] 33-4: _Projeto - Relatórios de Estoque_
+- [x] 33-4: _[Projeto - Relatórios de Estoque](https://github.com/biancaoura/project-inventory-report)_
 
 ### Bloco 34: Raspagem de Dados
 
-- [ ] 34-1: _Raspagem de Dados_
-- [ ] 34-2: _Outras Ferramentas de Raspagem de Dados_
-- [ ] 34-3: _Dia de Atividades - Crawlers + POO_
-- [ ] 34-4: _Projeto - Tech News_
+- [x] 34-1: _Raspagem de Dados_
+- [x] 34-2: _Outras Ferramentas de Raspagem de Dados_
+- [x] 34-3: _Dia de Atividades - Crawlers + POO_
+- [x] 34-4: _[Projeto - Tech News](https://github.com/biancaoura/project-tech-news)_
 
 ### Bloco 35: Algoritmos
 
