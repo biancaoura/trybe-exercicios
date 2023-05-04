@@ -239,7 +239,7 @@
 - [x] 33-3: _Padrões - Decorator, Observer, Factory_
 - [x] 33-4: _[Projeto - Relatórios de Estoque](https://github.com/biancaoura/project-inventory-report)_
 
-### Bloco 34: Raspagem de Dados
+### [Bloco 34: Raspagem de Dados](https://github.com/biancaoura/trybe-exercicios/tree/main/ciencia-da-computacao/bloco-34-raspagem-de-dados)
 
 - [x] 34-1: _Raspagem de Dados_
 - [x] 34-2: _Outras Ferramentas de Raspagem de Dados_
@@ -248,9 +248,9 @@
 
 ### Bloco 35: Algoritmos
 
-- [ ] 35-1: _Complexidade de Algoritmos_
-- [ ] 35-2: _Recursividade e Estratégias para solução de problemas_
-- [ ] 35-3: _Algoritmos de ordenação e busca_
+- [x] 35-1: _Complexidade de Algoritmos_
+- [x] 35-2: _Recursividade e Estratégias para solução de problemas_
+- [x] 35-3: _Algoritmos de ordenação e busca_
 - [ ] 35-4: _Projeto - Algoritmos_
 
 ### Bloco 36: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas
