@@ -246,16 +246,16 @@
 - [x] 34-3: _Dia de Atividades - Crawlers + POO_
 - [x] 34-4: _[Projeto - Tech News](https://github.com/biancaoura/project-tech-news)_
 
-### Bloco 35: Algoritmos
+### [Bloco 35: Algoritmos](https://github.com/biancaoura/trybe-exercicios/tree/main/ciencia-da-computacao/bloco-35-algoritmos)
 
 - [x] 35-1: _Complexidade de Algoritmos_
 - [x] 35-2: _Recursividade e Estratégias para solução de problemas_
 - [x] 35-3: _Algoritmos de ordenação e busca_
-- [ ] 35-4: _Projeto - Algoritmos_
+- [x] 35-4: _Projeto - Algoritmos_
 
 ### Bloco 36: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas
 
-- [ ] 36-1: _Arquitetura de Computadores_
+- [x] 36-1: _Arquitetura de Computadores_
 - [ ] 36-1: _Arrays_
 - [ ] 36-1: _Nós e Listas Encadeadas_
 - [ ] 36-1: _Pilhas e Filas_
