@@ -257,7 +257,7 @@
 
 - [x] 36-1: _Arquitetura de Computadores_
 - [x] 36-2: _Arquitetura de Redes_
-- [ ] 36-3: _Arrays_
+- [x] 36-3: _Arrays_
 - [ ] 36-4: _Nós e Listas Encadeadas_
 - [ ] 36-5: _Pilhas e Filas_
 - [ ] 36-6: _Projeto - TING - Trybe Is Not Google_
