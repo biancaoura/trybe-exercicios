@@ -253,7 +253,7 @@
 - [x] 35-3: _Algoritmos de ordenação e busca_
 - [x] 35-4: _[Projeto - Algoritmos](https://github.com/biancaoura/project-algorithms)_
 
-### Bloco 36: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas
+### [Bloco 36: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas](https://github.com/biancaoura/trybe-exercicios/tree/main/ciencia-da-computacao/bloco-36-estrutura-de-dados-i)
 
 - [x] 36-1: _Arquitetura de Computadores_
 - [x] 36-2: _Arquitetura de Redes_
