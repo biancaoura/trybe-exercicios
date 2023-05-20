@@ -266,5 +266,5 @@
 
 - [x] 37-1: _Hashmap e Dict_
 - [x] 37-2: _Set_
-- [ ] 37-3: _Pandas_
+- [x] 37-3: _Pandas_
 - [ ] 37-4: _Projeto - Restaurant Orders_
