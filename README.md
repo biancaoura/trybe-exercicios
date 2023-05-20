@@ -258,12 +258,12 @@
 - [x] 36-1: _Arquitetura de Computadores_
 - [x] 36-2: _Arquitetura de Redes_
 - [x] 36-3: _Arrays_
-- [ ] 36-4: _Nós e Listas Encadeadas_
-- [ ] 36-5: _Pilhas e Filas_
-- [ ] 36-6: _Projeto - TING - Trybe Is Not Google_
+- [x] 36-4: _Nós e Listas Encadeadas_
+- [x] 36-5: _Pilhas e Filas_
+- [x] 36-6: _Projeto - TING - Trybe Is Not Google_
 
 ### Bloco 37: Estrutura de Dados II: Hashmaps e Sets
 
-- [ ] 37-1: _Hashmap e Dict_
+- [x] 37-1: _Hashmap e Dict_
 - [ ] 37-1: _Set_
 - [ ] 37-1: _Projeto - Restaurant Orders_
