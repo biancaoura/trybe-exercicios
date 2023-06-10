@@ -260,11 +260,11 @@
 - [x] 36-3: _Arrays_
 - [x] 36-4: _Nós e Listas Encadeadas_
 - [x] 36-5: _Pilhas e Filas_
-- [x] 36-6: _Projeto - TING - Trybe Is Not Google_
+- [x] 36-6: _[Projeto - TING - Trybe Is Not Google](https://github.com/biancaoura/project-ting)_
 
-### Bloco 37: Estrutura de Dados II: Hashmaps e Sets
+### [Bloco 37: Estrutura de Dados II: Hashmaps e Sets](https://github.com/biancaoura/trybe-exercicios/tree/main/ciencia-da-computacao/bloco-37-estrutura-de-dados-ii)
 
 - [x] 37-1: _Hashmap e Dict_
 - [x] 37-2: _Set_
 - [x] 37-3: _Pandas_
-- [ ] 37-4: _Projeto - Restaurant Orders_
+- [x] 37-4: _[Projeto - Restaurant Orders](https://github.com/biancaoura/project-restaurant-orders)_
